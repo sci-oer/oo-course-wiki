@@ -28,7 +28,7 @@ A stream is a connection to a source of data or to a destination for data (somet
 
 Think of the stream as a continous sequence of data that can be observed (read) when desired.  One image that is often used is that of a water hose and a stream of water.   Something pushes the water into the hose and water comes out the other end.  A stream of data is similar in that data is "pushed" into the stream by some input device and then read by some other device or program that is observing (reading) the stream.
 
-![representation of input and output streams as they are commonly used in the Java programming language](/images/streams.png)
+![input streams such as buffered reader shown taking input from devices such as microphones and mice.  output streams such as buffered writer shown sending output to devices such as printers and terminals.](/images/streams.png)
 #### Stream Types
 - An input stream may be associated with devices used to communicate such as keyboard, mouse, stylus, trackpad.
 - A file can be either an input stream or an output stream.  The display of a computer is an output stream.

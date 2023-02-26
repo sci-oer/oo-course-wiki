@@ -40,7 +40,3 @@ Sublime allows for you to write and edit source code. **Please remember that it 
 
 
 
-#### Recorded Lecture
-
-[Using a Text Editor with OER Resource](http://localhost:8000/lectures/tools/TextEditors/)
-

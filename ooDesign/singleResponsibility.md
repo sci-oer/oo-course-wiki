@@ -50,7 +50,7 @@ There are two easy refactors that will improve this code greatly with respect to
 - Duplicate code for randomly determination is seen in both methods.  Neither of the methods should have responsibility for generating random numbers. The duplicate code should be moved to a different method or class.
 - `setContainer()` contains code for identifying whether or not there is a trap on the container (yellow highlights in the image). That code should be relocated to a separate method.
 
-![Code samples illustrating single responsibility principle](/images/singleResponsibility.png)
+![Two methods shown, setContainer and setDescription. setContainer incorrectly also has code for setting other aspects of the treasure item, and the methods both have the same code for generating die rolls. ](/images/singleResponsibility.png)
 
 
 
@@ -77,7 +77,6 @@ A second type of matrix can be used to help understand the way that responsibili
 
 For each method the signature, its responsibility, instance variables and helper methods, and other objects used in the method are listed.  It is often useful to list the approximate number of lines of code as well.  This type of matrix is very useful to understand which methods in a class may need to be refactored or moved to other classes.
 
-#### Recorded Lecture
-[Single Responsibility Principle](http://localhost:8000/lectures/ooDesign/SingleResponsibility/)
+
 #### Practice 
 - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/singleResponsibility) 

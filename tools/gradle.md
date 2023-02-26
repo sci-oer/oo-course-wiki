@@ -15,20 +15,66 @@ Gradle is a build automation tool known for its flexibility to build software. G
 ## Using Gradle
 Gradle is a program that must be installed on your computer, but in regards to this course it has already been installed in the docker container. Gradle works by reading a file that contains the instructions for each build process. Here is where the Gradle file is in the project hierarchy:
 
-![image of the standard project hierarchy for the build.gradle file](/images/gradlehierarchy.png)
+![shows the file/folder structure for a standard gradle project.  The build.gradle file is at the root.  Subfolders include config and src. The README for the project is also at the root](/images/gradlehierarchy.png)
 
 Here is what that file looks like:
 
-![image of the build.gradle file](/images/gradlecheckstyle.png)
+```groovy
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
 
-Gradle can be run from the command line or from the IDE, but there are cases where the IDE will change your Gradle file, so it is best to stick to the command line for this course. Please note that if you submit a Gradle file that does not work on the command line with your assignment, we will **NOT** grade your assignment.
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+test {
+    enableAssertions = true
+}
+
+//change the name of the class that is run on line 16 to match your own code
+task echo;
+echo.doFirst {
+    println "To run the program:\njava -cp build/classes/java/main somepackagename.JavaClass"
+}
+
+dependencies {
+    testImplementation('junit:junit:4.13')
+}
+```
+
+Gradle can be run from the command line or from an IDE.  Sometimes an IDE will make changes to your gradle.build file, so use the IDE only if you understand what it is doing.
 
 ## Running Gradle on the Command Line
-Below is an example of the Gradle command line output of a program you have been provided called *HelloWorld*:
+To run gradle on the command line, simply type `gradle build`.   If your code compiles without errors you should see output something like the following:
 
-![gradle command line output](/images/gradlecommandline.png)
+```
+starterFiles $gradle build
 
-As you can see with the Gradle file provided to you in the examples, the target `gradle run` will not actully run the program but instead it will just be printing out the java command to run the program.
+BUILD SUCCESSFUL in 280ms
+3 actionable tasks: 3 up-to-date
+starterFiles $
+```
+
+Our example gradle file provides a specialized task called `echo` that echos the command needed to run the program as output so that it is easy to cut/paste the command and run the program.  It is worth noting that `echo` is not a built in command for gradle and it does not run the program.   It is simply a convenience task used by the authors.
+
+The output from running `echo` is shown below.
+
+```
+starterFiles $gradle echo
+
+> Task :echo
+To run the program:
+java -cp build/classes/java/main somepackagename.JavaClass
+
+BUILD SUCCESSFUL in 283ms
+1 actionable task: 1 executed
+starterFiles $
+
+```
 
 ## GradleW
 

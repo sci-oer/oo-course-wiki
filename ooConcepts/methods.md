@@ -26,11 +26,11 @@ Method definitions are divided into two parts: **a heading, or signature**, and 
 
 
 
-![Illustration of a method body for a multiplication method](/images/methodHeader.png)
+![labelled method header "public double multiply(double factorOne, double factorTwo". public is labelled as visibility, double is labelled as return type, multiply is labelled as method name, factorOne and factorTwo are labelled as parameters ](/images/methodHeader.png)
 
 The method body defines the computation of the method. In the example below the method body consists of multiplying the two parameters and returning the result.
 
-![Illustration of a method heading for a multiplication method](/images/methodBody.png)
+![method body for the multiply method: double answer=factorOne*factorTwo; return answer;](/images/methodBody.png)
 
 Methods must either return a value or be declared with `void` as a return type.
 The body of a method that returns a value must also contain one or more `return` statements. A return statement is followed by the value to be returned. `void` methods do not require a return statement.
@@ -38,7 +38,7 @@ The body of a method that returns a value must also contain one or more `return`
 
 The objects or instances of a class share the memory for method definitions. When instances of a class are created they contain an internal pointer (essentially a function pointer) to each of the instance methods for that class.
 
-![Illustration of memory allocation for instances including function pointer for methods](/images/memoryAllocation.png)
+![ memory allocation for instances. A pointer is allocated to refer to the object. Memory for the object is allocated that includes attributes and function pointers for methods](/images/memoryAllocation.png)
 
 > **There are two types of instance methods:**
 >   1. Methods that compute and return a value

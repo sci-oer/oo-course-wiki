@@ -100,8 +100,6 @@ A manual walkthrough of the code does not use the computer.  Instead the program
 {.is-info}
 
 
-#### Recorded Lecture
-[Using an Integrated Debugger](http://localhost:8000/lectures/tools/IntegratedDebuggins/)
 
 #### Practice 
 

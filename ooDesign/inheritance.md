@@ -205,8 +205,7 @@ public class Car extends Vehicle {
 
 An abstract class can have any number of abstract and/or fully defined methods. If a subclass class of an abstract class does not define all of the abstract methods, then it is abstract also, and must add `abstract` to its modifier.  A class that has no abstract methods is called a concrete class
 
-#### Recorded Lecture
-[Polymorphism with Inheritance](http://localhost:8000/lectures/ooDesign/Inheritance/)
+
 
 #### Practice 
  - Tutorial: [Creating Subclasses](http://localhost:8888/lab/tree/tutorials/ooDesign/creatingSubclasses.ipynb)

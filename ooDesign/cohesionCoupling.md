@@ -143,12 +143,12 @@ Coupling is necessary for an OO program to operate, so we never try to eliminate
 
 Coupling can be visualized using a dependency diagram.   The diagram below shows the dependencies between the classes discussed in the [Using Polymorphism](/ooDesign/usingPolymorphism) resources. The thickness of the line represents the strength of the dependency.   The line colours don't matter for this discussion.
 
-![Dependency diagram of Animal hierarchy](/images/animalExampleDependency.png)
+![Dependency diagram showing the coupling from the animal classes discussed in the polymorphism section.  All classes are coupled to Animal except Cat and Tiger. Feline and Lizard are coupled to Climb](/images/animalExampleDependency.png)
  
 All of the classes in that example are in some way coupled to the Animal class, which is understandable since it was an example of using polymorphism.  However, it can be seen that the concrete classes are not coupled to one another as there are no dependencies between them (e.g. there is no line between `Feline` and `Lizard`)
 
 Contrast the previous dependency graph with the one shown below (taken from an implementation of a different game).  This second example shows a more highly coupled design.  For example the `models.managers` package is compled to `models.blocks.chamber` as well as models.blocks.passage and also to `models.blocks.` `chamber` and `passage` are also coupled to `blocks` as well as to one another.   
-![Dependency diagram of packages in a game implementation](/images/GameDependencyGraph.png)
+![Dependency diagram of packages in a game implementation. Each package in the diagram has a line to several other packages indicating that the code base is highly coupled.](/images/GameDependencyGraph.png)
 
 
 > We aim for *loose coupling*.

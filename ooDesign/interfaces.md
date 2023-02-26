@@ -96,8 +96,7 @@ An interface can contain defined constants in addition to or instead of method h
 
 Because an interface is a type, parameters and return types can be interface types
 
-#### Recorded Lecture
-[Polymorphism with Interfaces](http://localhost:8000/lectures/ooDesign/Interfaces/)
+
 
 #### Practice 
 - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/interfaces) 

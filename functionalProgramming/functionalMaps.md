@@ -18,7 +18,7 @@ The `map()` method of a `Stream` is used to create a new stream based on some ch
 
 For example, the image below shows two collections. The first is a collection of strings and the second is a collection of integers.  The map between them is that the second collection represents the string length of the elements in the first collection.
 
-![illustration of two collections, a colection of strings, and a collection of integers](/images/mapFunction.png)
+![illustration of two collections, a colection of strings, and a mapped collection of integers, where each element  represents the length of the matching string in the first collection.](/images/mapFunction.png)
 
 
 The type of the objects in the output stream is often (but not necessarily) different from the type in the input stream. The code to produce the output stream shown in the image can be seen below.

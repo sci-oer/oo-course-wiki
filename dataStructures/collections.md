@@ -147,7 +147,7 @@ A set is also a very useful construct for tasks where the number of unique eleme
 #### Recorded Lecture
 [Using ArrayList](http://localhost:8000/lectures/dataStructures/ArrayList/)
 [Using HashMap](http://localhost:8000/lectures/dataStructures/HashMap/)
-[Using HashSet](http://localhost:8000/lectures/dataStructures/HashSet/)
+
 
 #### Practice 
  - Tutorial: [Using ArrayList](http://localhost:8888/lab/tree/tutorials/dataStructures/ArrayList.ipynb) 

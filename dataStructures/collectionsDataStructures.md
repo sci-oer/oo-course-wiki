@@ -14,7 +14,7 @@ People collect things.   Somtimes those things are physical items such as tradin
 People who have physical collections of things usually keep the different types of collections separated.  The coins will be in a separate box or container from the trading cards, for example.
 Collectors who have more than one collection rarely mix types.  
 
-![A collection of coins and stamps.](/images/collectionsinreallife.png)
+![A collection of coins and stamps in no particular order. Image mostly decorative.](/images/collectionsinreallife.png)
 
 ### Collections of data
 Computer programs often required sets, or collections of data in order to operate.  Programs like personal organizers, library catalogs, and student-record systems have clear needs for sets of data as do inventory systems for stores, banking applications, and document management.   Collections are found in less obvious applications as well. A text editor may keep track of a set of 'recent files', a web browser keeps track of cookies and browsing history, and SMS apps keep track of messages sent and received.

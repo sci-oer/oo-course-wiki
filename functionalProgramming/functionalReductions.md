@@ -16,7 +16,7 @@ dateCreated: 2022-08-17T18:14:09.887Z
 
 A reduction produces a single value from some sort of calculation involving each of the elements of a stream. For example, one common reduction in an list of numbers is an average. The image below shows the result of a reduction that returns the number of occurences of the letter `c` in the stream.
 
-![illustration of a stream reduction.](/images/functionalReduction.png)
+![illustration of the results of reducing a stream containing several words to a count of the number of times the letter c occurs in the stream.](/images/functionalReduction.png)
 
 
 The `reduce` method is slightly more complex to use than either `map` or `filter` but it is extremely useful. The purpose of the method is to ‘collapse’ a multi-element stream to a single ‘value’. `reduce` takes two parameters: A variable of the type that the reduction is expected to produce and a lambda expression.  

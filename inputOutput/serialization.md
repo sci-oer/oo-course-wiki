@@ -143,8 +143,7 @@ Object serialization is a useful technique in situations where the object in que
 
 It can also be used to send serialized objects across network connections to remote programs.  That application  of serialization can be difficult to debug.
 
-#### Recorded Lecture
-[Object Serialization](http://localhost:8000/lectures/inputOutput/Serialization/)
+
 
 #### Practice 
 - Tutorial: [Serialization Demo](http://localhost:8888/lab/tree/tutorials/inputOutput/serialization.ipynb) 

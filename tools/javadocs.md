@@ -17,7 +17,7 @@ Javadoc comments are annotations to the source code for a program that can be us
 
 Javadocs are supported by the annotations feature of the java programming language. Annotations are preceded by the @ symbol.   Specific annotations are used by the Javadoc program to produce documentation for your program. This documentation provides the reader a description of how to use a specific class in a program. Things that are included in this description are; the purpose, parameters and return values for every public method in the class. The description should also include a general overview of the class and its purpose. Here is a simpiler example for the String class:
 
-![Javadocs for the string class](/images/stringdocumentation.png)
+![Screenshot of the first constructor documentation found here: http://localhost:8000/docs/api/java.base/java/lang/String.html](/images/stringdocumentation.png)
 
 ## Creating javadoc comments
 
@@ -57,7 +57,7 @@ By convention, every public method in a java program should javadoc comments.  A
 ##### Using Gradle
 - The java task in gradle provides tools for generating javadocs from the appropriate comments.  To use gradle to generate javadoc documentation you simply type `gradle javadoc` on the command line.  Gradle will put the documentation inside the `build` folder in a subfolder called `docs`.
 
-![javadocs.png](/images/javadocs.png)
+![File Folder hierachy showing with the build folder expanded and the docs subfolder circled. The javadoc sub folder of the docs folder is visible](/images/javadocs.png)
 
 ##### Without using Gradle  
 - To run javadoc on a package

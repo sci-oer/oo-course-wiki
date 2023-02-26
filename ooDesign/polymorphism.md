@@ -43,14 +43,12 @@ Through use of the OO language we can tell the compiler precisely which types of
 
 A UML diagram of the inventory management system is shown below.   
 
-![Class diagram showing polymorphic relationships ](/images/polymorphismClassDiagram.png =50%x )
+![Class diagram showing polymorphic relationships. Expirable is an interface. StoreItem is a class.  Food implements Expirable and extends StoreItem. DryGoods is a class that extends StoreItem and implements the Displayable interface ](/images/polymorphismClassDiagram.png =50%x )
 
 Java permits polymorphism through two main avenues: the use of [Interfaces](/ooDesign/interfaces) (not GUIs), and the use of [Inheritance](/ooDesign/inheritance).  
 
 Polymorphic are shown on the diagram by a line ending with a triangle arrowhead. Interfaces are shown in the diagram with dotted borders and dotted connecting lines.  Inheritance is shown when classes are connected with a solid line.   
 
-#### Recorded Lecture
-[Programming with Polymorphism](http://localhost:8000/lectures/ooDesign/Polymorphism/)
 
 #### Practice 
 

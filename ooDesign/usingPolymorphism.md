@@ -155,8 +155,7 @@ Boo!
 ```
 Again, each object knows exactly which implementation of `makeNoise()` to call because of dynamic binding.
 
-#### Recorded Lecture
-[Programming with Polymorphism](http://localhost:8000/lectures/ooDesign/Polymorphism/)
+
 
 #### Practice 
  - Tutorial: [Programming with Polymorphism](http://localhost:8888/lab/tree/tutorials/ooDesign/usingPolymorphism.ipynb) 

@@ -17,7 +17,8 @@ A text file can be attached to a stream and used for either input or output. In 
 
 ### Files and Paths
 The file system on a modern computer uses a hierarchical file/folder structure that helps keep files organized for human understanding.   The resulting structure looks like a tree when depicted graphically.  
-![screenshot of the file folder represention of the course subfolder](/images/fileHierarchy.png)
+![the file/folder structure for the *course* subdirectory of this docker container. 
+There is a file called *build.gradle* circled in blue.  The filename for that file is `build.gradle`.   The **path** to that file is `/course/practiceProblems/ooConcepts/calcWithClassMembers/`](/images/fileHierarchy.png)
 
 In the image above you see the file/folder structure for the *course* subdirectory of this docker container. 
 There is a file called *build.gradle* circled in blue.  The filename for that file is `build.gradle`.   The **path** to that file is `/course/practiceProblems/ooConcepts/calcWithClassMembers/`.  If one wanted to open that file with a program, the path should be concatentated to the filename to produce `/course/practiceProblems/ooConcepts/calcWithClassMembers/build.gradle`

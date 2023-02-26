@@ -16,11 +16,11 @@ Like [Javadoc](/tools/javadocs), Junit uses the java annotation framework.  It r
 
 One common method of using junit is to create a test class in parallel with each application class. The tests are included in the src tree but separated from the application classes as shown in the figure below.
 
-![testingfiles.png](/testingfiles.png)
+![Standard gradle file/folder hierarchy shown with the src folder expanded. The src folder has two subfolders, main and test.   Those two subfolders have identical internal folder structures](/testingfiles.png)
   
 Gradle automatically runs junit tests when a program is built using gradle build.   The results are printed to the screen but also are written to the build folder in a `test-results` sub folder.   The XML file can be read by any text editor and most browsers.  
 
-![testresultsjunit.png](/testresultsjunit.png)
+![Standard gradle file/folder hierarchy shown with the build folder expanded. The test-results subfolder is circled to highlight where to look for junit test results.](/testresultsjunit.png)
 
 If you need to compile your code without running the tests you can use the `-x` flag to gradle to exclude the test step.  `gradle -x test`
 
@@ -123,5 +123,3 @@ public class AppointmentTest{
 }
 ```
 
-#### Recorded Lecture
-[Using Junit](http://localhost:8000/lectures/tools/Junit/)

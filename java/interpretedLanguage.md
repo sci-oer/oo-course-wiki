@@ -36,7 +36,7 @@ The process is shown in the image below
 1. Copy the bytecode to a computer that has a java bytecode interpreter installed.
 1. Run the program
 
-![The process of java code compilation.](/images/compile_cycle.png)
+![The process of java code compilation as described in the numbered steps above. A source code file is submitted to the java compiler which outputs some bytecode. The bytecode is run by the java interpreter and the application is available to use](/images/compile_cycle.png)
 
 ##### JDK compiler: javac
 - To invoke:

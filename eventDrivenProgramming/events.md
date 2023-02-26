@@ -43,8 +43,6 @@ Creating a program to use an event-driven design requires the programmer to shif
 3. Event driven programs cannot be written linearly
 
 
-#### Recorded Lecture
-[Event Driven Programming](http://localhost:8000/lectures/eventDrivenProgramming/EventDrivenProgramming/)
 
 #### Practice 
 

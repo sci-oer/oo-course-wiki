@@ -156,7 +156,7 @@ The code snippet below shows how those two exceptions can be caught individually
 ## Hierachy of Exceptions
 The more specific exceptions, such as `IOException` are subclasses of the more general `Exception` class.  When a programmer defines their own exceptions, they must also be subclasses of the general Exception class.   A possible set of exceptions based on the Laundry example is shown in the diagram below.
 
-![Illustration of the Exception class hierachy of exceptions.](/images/exceptions.png)
+![Exception hierarchy for exceptions in Laundry code sample. ClothingException is the most abstract. PantsException and ShirtException are subclasses of ClothingException.  TshirtException and DressShirtException are subclasses of ShirtException.](/images/exceptions.png)
 
 The hierarchical relationship means that a subclass is also a member of the more general class.  For example,  `ShirtException` and `TShirtException` are subclasses of the `ClothingException` class.  This means that an object of type `TShirtException` is also a `ClothingException`.  
 
@@ -232,9 +232,7 @@ In the example below there is no need to explicitly close the file stream becaus
 #### Recorded Lecture
 [Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
 
-[Working with Multiple Exceptions](http://localhost:8000/lectures/errors/MultipleExceptions/)
 
-[Try with Resources](http://localhost:8000/lectures/errors/TryWithResources/)
 
 #### Practice 
  - Tutorial: [Try Catch](http://localhost:8888/lab/tree/tutorials/errors/tryCatch.ipynb) 

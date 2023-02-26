@@ -67,18 +67,18 @@ public class Die
 The faceValue variable in the Die class is called instance data because each instance (object) that is created has its own version of it, also called instance variables, member variables, member data.
 
 To use the Die class, a reference variable of type `Die` must first be created.
-![Illustration of using the Die class, with a reference to a variable of type Die](/images/referenceDeclaration.png)
+![Two die declarations (firstDie and secondDie) and a depiction of the memory created for the reference variable.](/images/referenceDeclaration.png)
 When the code that declares the reference variable is executed, a memory location is reserved and labelled with the variable name. The memory location is sized to hold a memory address (reference).
 
 The reference variable can then be set to point at the memory location for an instance of the Die class. The instance is created using the `new` keyword.
 
-![Illustration of memory allocation for instances including function pointer for methods](/images/memoryAllocation.png)
+![code: firstDie = new Die(); the reference variable from previous image now has an arrow pointing to a box with interior boxes labelled with the Die attributes numFaces and faceValue. There is also a reference attribute in the Die box for a function pointer to the Die class methods.](/images/memoryAllocation.png)
 
 
 Every time a Die object is created memory is reserved for the instance variables. When a method is used to change the state of the instance, the memory associated with that instance is updated with the new state.
 
 
-![instanceVarValues.png](/images/instanceVarValues.png)
+![code: firstDie.setFaceValue(5).  The faceValue attribute space in the box representing the Die object now has the number 5 in it.](/images/instanceVarValues.png)
 
 Notice that the faceValue variable in the two instances noted above now have different values.
 

@@ -15,9 +15,9 @@ dateCreated: 2022-05-02T19:46:23.699Z
 # Filter
 A filter operation selects items from the input stream to pass on to the output stream based on some characteristic of the input stream element.
 
-In the image below a filter is used to extract the elements of the original stream that have two syllables. The resulting stream consists only of two-syllable elements. 
+In the image below a filter is used to extract the elements of the original stream that have two syllables. The original stream contains the words bird,cat,dog,horse,chicken and rabbit. The resulting stream consists only of the two-syllable elements: chicken and rabbit. 
 
-![illustration of a filtered stream.](/images/filterFunction.png)
+![illustration of the filtering described above.](/images/filterFunction.png)
 
 
 The code to create the filtered stream is shown below.

@@ -66,13 +66,13 @@ A static, or class, variable is declared like an instance variable, with the add
  
  This variable could have been declared with code that looks like this `private static int mostFaces = 0;`
  
-![Static variable in the Die class representing the maximum number of sides for any die instance in the program](/images/staticVariables1.png)
+![the `Die` class static variable called mostFaces is shown.   There are two Die instances, both with 6 faces so the mostFaces class variable is set to 6.  ](/images/staticVariables1.png)
 
 In the next image a third instance has been added to the program.  This die instance has 12 sides and the mostFaces variable in the Die class has been updated to a value of 12.   All three die instances will have the same value for mostFaces.
 
 The code for updating the mostFaces class variable would need to be included in the constructor for the Die class to ensure that every time an instance was created, the number of faces of the new instance was compared to mostFaces and that mostFaces was updated if required.
 
-![Static variable in the Die class representing the maximum number of sides for any die instance in the program](/images/staticVariables2.png)
+![a third instance of the Die clas is shown that has 12 sides. The mostFaces variable in the Die class has been updated to a value of 12](/images/staticVariables2.png)
 
 
 Static variables can be declared and initialized in the same line of code.

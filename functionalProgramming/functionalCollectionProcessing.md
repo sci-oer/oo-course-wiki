@@ -80,8 +80,7 @@ strings.stream()
 			s->System.out.println(s));
 ```
 
-#### Recorded Lecture
-[Processing Collections as Streams](http://localhost:8000/lectures/functionalProgramming/CollectionProcessing/)
+
 
 #### Practice 
  - Tutorial: [collection processing](http://localhost:8888/lab/tree/tutorials/functionalProgramming/collectionProcessing.ipynb)

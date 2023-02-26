@@ -42,8 +42,6 @@ openItem.addActionListener( ev -> controller.openFile(););
 
 
 
-#### Recorded Lecture
-[Using Lambda Expressions as GUI Listeners](http://localhost:8000/lectures/functionalProgramming/LambdaExpressions/)
 
 #### Practice 
   

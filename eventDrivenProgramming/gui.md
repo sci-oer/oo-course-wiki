@@ -19,7 +19,7 @@ To ensure good encapsulation, the program should work without the GUI (perhaps a
 
 A GUI is built up incrementally from  components that are layered  and arranged to make the display that the user sees. The libraries and framework chosen dictate the names of the components and the methods they have available.  All GUI frameworks are similar in functionality provided. 
 
-![Components layered to make a simple GUI](/images/guiComponents.png)
+![Components layered to make a simple GUI consisting of a text field, two buttons, a text area and a label. ](/images/guiComponents.png)
 
 In the image shown there are several layers of components. There is a panel that is outlined in red. The Panel contains the field with the words 'text field' as well as a second panel to the left that contains the 'button' and another field labelled 'text'. Finally there is a second button at the bottom of the panel.
 
@@ -28,7 +28,7 @@ Each component is added separately to the container to create the desired user i
 ## WireFrames and Planning
 It is helpful to make a prototype of the GUI so that you know what components you need.  A wireframe is one simple way to make a prototype.  A wireframe is a simple line drawing that indicates where the fields, buttons, and menus will be on a user interface.  There are many specialized applications for creating wire frames but any drawing tool can be used, or a wireframe can be sketched by hand.
 
-![Example wireframe of interface for uploading files ](/images/wireFrame.png)
+![Example wireframe of possible interface for uploading files that includes multiple tabs as well as some check boxes for file characteristcs. ](/images/wireFrame.png)
 
 ## GUI programming with SWING
 A SWING gui is created by adding *components* to a *container* and arranging them with a *layout manager*.  Because containers are also components, the programmer can create a multi-layer view that consists of containers that hold other containers which are in turn holding base components.
@@ -37,7 +37,7 @@ A SWING gui is created by adding *components* to a *container* and arranging the
 
 A programmer can create custom components, but the [components provided with SWING](http://localhost:8000/docs/api/java.desktop/javax/swing/JComponent.html) are more than sufficient for learning to program an event driven GUI.    Some of the commonly used components are shown in the images below.
 
-![Swing components](/images/componentsone.png) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; ![Swing components](/images/componentstwo.png)
+![ A column of swing components including JButton, JCheckbox, JRadioButton, JSlider, JSpinner, and JCombobox](/images/componentsone.png) &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; ![A column of swing components including JMenuBar, JTextArea, JList, JTextField, JPasswordField and JLabel.](/images/componentstwo.png)
 
 When desiging a GUI it is important to choose the component that is best suited for the operation needed. For example, a radio button set is used when the user may make a single choice from a list of choices, but a checkbox set is used when the user may select multiple choices.
 
@@ -134,11 +134,11 @@ The habit of separating the setup code into private methods that return a compon
 
 #### Sample GUI as written with BorderLayout
 
-![Sample Gui with Border Layout](/images/sampleguiborderlayout.png)
+![Sample Gui rendered using Border Layout](/images/sampleguiborderlayout.png)
 
 #### Sample GUI with FlowLayout
 
-![Sample Gui with Flow Layout](/images/sampleguiflowlayout.png)
+![Sample Gui rendered using Flow Layout](/images/sampleguiflowlayout.png)
 
 
 This example GUI contains no code for handling events. The *event handlers* must be added as listeners to any component that needs to react to use input. This is demonstrated in the [Event Handlers](/eventDrivenProgramming/eventHandlers) section of the wiki.

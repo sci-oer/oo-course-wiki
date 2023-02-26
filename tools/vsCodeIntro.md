@@ -25,28 +25,25 @@ Another useful feature of VS Code is its ability to let you split screen your wi
 
 Below is an example of a split screen window in VS Code.
 
-![split screen feature in Virtual Studio Code app.](/spliscreenvscode.png)
+![split screen feature in Virtual Studio Code showing the Song class on one side and the Runner class on another.](/spliscreenvscode.png)
 
-### Using InteliSense
+### Using IntelliSense
 This tool provides intelligent code completions based on language semantics and an analysis of your source code. If a language service, such as Java, knows possible completions, the IntelliSense suggestions will pop up as you type. Pressing `Tab` or `Enter` will insert the rest of the variable name, function, variable type, etc. 
 
-![intellisense feature in Virtual Studio Code app.](/images/intellisense.png)
 
 It also displayes quick info, provided by the language service, for each method by either hovering over the method or by clicking the info icon. This will provide helpful for understanding the methods you are using and understanding the parameters for it.
 
-![method info feature Virtual Studio Code app.](/images/infovscode.png)
+![method info popup in Virtual Studio Code showing the javadocs for the println method.](/images/infovscode.png)
 
 ## Running Code With VS Code
-![welcome page of the Virtual Studio Code app.](/images/getstarted_page.png)
 
-This set of steps will start with the assumption that you have already opened your project code:
+
+After you have  opened your project code:
  
-**Step 1 -** Click terminal option from menu above then click new terminal or use the `ctrl` and `~` keys to open a new terminal window.
+**Step 1 -** Click terminal option from menu  then click new terminal or use the `ctrl` and `~` keys to open a new terminal window.
  
-**Step 2 -** If its a gradle folder (all the examples and projects for this course use gradle) Run`./gradle build` on the command line.
+**Step 2 -** If your project is a gradle based project (all the examples and projects for this course use gradle) Run`./gradle build` on the command line.
 
 **Step 3 -** You code will be run and you should see your output form in the terminal window below.
 
-#### Recorded Lecture
 
-[Using VS Code with OER Resource](http://localhost:8000/lectures/tools/VSCode/)

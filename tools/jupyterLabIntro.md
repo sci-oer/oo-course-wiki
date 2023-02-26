@@ -14,7 +14,7 @@ JupyterLab is a web-based interactive development environment that supports seve
 
 ### What does a tutorial look like?
 
-![an image of a jupiter lab tutorial page](/images/jupiterlabsintro.png)
+![an image of a jupiter lab tutorial page with the file list of tutorials on the left and the usingPolymorphism tutorial open](/images/jupiterlabsintro.png)
 
 Here in this image you can see what the tutorial page for **Programming with Polymorphism** looks like inside of `Jupyter Lab`. You can see text explaining a concept and how it leads into sample code that is provided for you to get a better understanding of the concept being taught. 
 
@@ -22,7 +22,7 @@ Here in this image you can see what the tutorial page for **Programming with Pol
 
 In order to see how using `Jupyter Lab` to compile your solutions to problems works, let's take a look at the **Hello World** tutorial.
 
-![an image of the hello world tutorial on jupiter labs](/images/jltutorialstart.png)
+![an image of the hello world tutorial on jupiter labs with the run button higlighted in the menu](/images/jltutorialstart.png)
 
 As you can see in the image above, there is a solution to a Hello World program in Java. In order to run your solution:
 
@@ -31,11 +31,9 @@ As you can see in the image above, there is a solution to a Hello World program 
 3. click on the play button in the tool bar to run your solution.
 (see image below for outcome)
 
-![an image of the hello world tutorial on jupiter labs solution run](/images/jltutorialcompiled.png)
+![an image of the hello world tutorial on jupiter labs solution with the output from running cell four shown](/images/jltutorialcompiled.png)
 
 As you can see in the image above, the solution to the Hello World program in Java has been run and the output for the program has been printed below the solution.
-
-![an image of a code cell being edited](/images/editingjupyterlab.png)
 
 Also if you wish to edit or write code into a coding cell on `Jupyter Lab` all you need to do is double click on the cell. Once you are in the cell all your changes are automatically saved and will be updated for you the next time you run the kernel.
 

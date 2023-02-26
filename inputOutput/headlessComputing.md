@@ -40,6 +40,3 @@ One common mechanism for providing software that works in both a GUI and a headl
 To accomplish this, the software must be designed so that the user interface is simplely a **view** on the software's operations and does not conduct any of the computation required for the software to operate.  This is the fundamental principle behind a design pattern known as **Model-View-Controller**.
 
 
-#### Recorded Lecture
-
-[Headless Computing](http://localhost:8000/lectures/inputOutput/HeadlessComputing/)

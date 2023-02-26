@@ -65,8 +65,7 @@ Point newLocation = location.translate(width, height);
 rect.setLocation(newLocation);
 ```
 
-#### Recorded Lecture
-[Using an Integrated Debugger](http://localhost:8000/lectures/tools/IntegratedDebugging/)
+
 
 #### Practice 
 - [Self Study Exercises and Practice Problems](/practiceActivities/errors/debugging)  

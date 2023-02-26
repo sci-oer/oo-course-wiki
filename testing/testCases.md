@@ -100,8 +100,7 @@ The test cases shown below are better designed to avoid interactions.  Some of t
 
 Once the test cases are identified, they can be used to create a script, or used in an automated testing framework to build a repeatable test suite for the software.
 
-#### Recorded Lecture
-[Test Case Construction](http://localhost:8000/lectures/testing/TestCaseConstruction/)
+
 
 #### Practice 
  - Tutorial: [Creating Hello World](http://localhost:8888/lab/tree/tutorials/java/helloWorld.ipynb) 

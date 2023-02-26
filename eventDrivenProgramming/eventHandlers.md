@@ -80,10 +80,7 @@ The syntax shown below accomplishes the same goals as the earlier example, but t
 ```
 The use of [lambda expressions](/functionalProgramming/lambdaListeners) to add listeners to a GUI component can greatly increase cohesion and reduce coupling.   
 
-#### Recorded Lecture
-[Event Handlers](http://localhost:8000/lectures/eventDrivenProgramming/EventHandlers/)
 
-[Using Lambda Expressions as GUI Listeners](http://localhost:8000/lectures/functionalProgramming/LambdaListeners/)
 #### Practice 
 
 - [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/eventHandlers)  
