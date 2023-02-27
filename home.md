@@ -148,7 +148,13 @@ Functional programming has many similarities with OO programming.  In this secti
 
 ## About the Resource
 #### Authors
-This resource was created by Dr. J. McCuaig and M. Asch with support from the Ontario eCampus program.  C. Norrie and H. Al-Rubaye were employed  as summer students to author wiki pages and create activity solutions.  
+This resource was created by Dr. J. McCuaig and M. Asch.   C. Norrie and H. Al-Rubaye were employed  as summer students to author wiki pages and create activity solutions.  
+
+Students from the Fall 2022 offering of Intro to Object-Oriented Programming at the University of Guelph provided valuable bug reports and feedback about the resource.  Thanks also to OO students who contributed code including M. Schmid, B. Sengupta, M. Ladyjenko, and R. Blotsky.
+
+This project wasmade possible with funding from the University of Guelph OER support program and the Government of Ontario and through eCampusOntario’s support of the Virtual Learning Strategy. To learn more about the Virtual Learning Strategy visit: https://vls.ecampusontario.ca.
+
+
 #### Learning Outcomes
 Once you master the concepts contained in these resources you will be able to:
  - Differentiate between procedural and object-oriented paradigms
@@ -166,7 +172,7 @@ Once you master the concepts contained in these resources you will be able to:
 
 ###### This SCI-OER Java resource is intended to help novice programmers learn to program in an object-oriented fashion using the Java programming language.
 
-**Copyright (C) 2022  Dr. J. McCuaig and M. Asch**
+**Copyright (C) 2023  Dr. J. McCuaig and M. Asch**
 
 This resource is free: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published  by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
