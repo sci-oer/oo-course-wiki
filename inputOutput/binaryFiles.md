@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:19.558Z
 ---
 
-### Prerequisite Knowledge
-- [Streams](/inputOutput/streams)
-- [Text Files](/inputOutput/textFiles)
 
 # Binary Files
 A binary file contains data that is not formatted as text.  In order for your program to understand the binary data in a file, it must know what kind of data to expect.
@@ -44,6 +41,4 @@ Files.write(destination, bytesFromTarget);
 
 
 
-#### Practice 
 
-- [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/binaryFiles)  

@@ -8,8 +8,7 @@ editor: markdown
 dateCreated: 2022-05-02T19:48:14.927Z
 ---
 
-#### Prerequisite Knowledge
-[Procedural Programming vs OO programming](/ooConcepts/proceduralOOCompare)
+
 
 # Classes, Objects and Instances
 
@@ -65,14 +64,6 @@ Pet myBrownCat;
 > 
 
 
-#### Recorded Lecture
-- [Classes, Objects and  Instances ](http://localhost:8000/lectures/ooConcepts/ClassesObjectsInstances/)
-- [Classes in Memory](http://localhost:8000/lectures/ooConcepts/ClassesInMemory)
-#### Practice 
- - Tutorial: [Declaring and using instances](http://localhost:8888/lab/tree/tutorials/ooConcepts/objectsAndInstances.ipynb) 
-- Tutorial: [Creating a class in Java](http://localhost:8888/lab/tree/tutorials/ooConcepts/classStructure.ipynb)
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/classes)
 
 
 

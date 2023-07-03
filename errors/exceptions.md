@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:44.740Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Text Files](/inputOutput/textFiles)
 
 # Exceptions
 Java, and most other OO languages, use *exceptions* to give programs the ability to handle unexpected events. Often these events are precipitated by some kind of input/output such as user input or opening a file.
@@ -228,15 +225,4 @@ In the example below there is no need to explicitly close the file stream becaus
     }
 ```
 
-
-#### Recorded Lecture
-[Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
-
-
-
-#### Practice 
- - Tutorial: [Try Catch](http://localhost:8888/lab/tree/tutorials/errors/tryCatch.ipynb) 
-  - Tutorial: [Try With Resources](http://localhost:8888/lab/tree/tutorials/errors/tryWithResources.ipynb) 
-   - Tutorial: [Handling Multiple Exceptions](http://localhost:8888/lab/tree/tutorials/errors/multipleExceptions.ipynb) 
-  - Tutorial: [Programmer Defined Exceptions](http://localhost:8888/lab/tree/tutorials/errors/customExceptions.ipynb) 
-- [Self Study Exercises and Practice Problems](/practiceActivities/errors/exceptions)  
+ 

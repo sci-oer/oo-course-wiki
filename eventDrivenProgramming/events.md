@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:49.939Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
 
 # Events 
 
@@ -44,6 +42,3 @@ Creating a program to use an event-driven design requires the programmer to shif
 
 
 
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/events) 

@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:38.583Z
 ---
 
-### Prerequisite Knowledge
-- [Streams](/inputOutput/streams)
 
 # Text Files
 
@@ -130,12 +128,4 @@ The second mechanism that the `Files` class provides is a set of static methods 
 ```
 Java provides many mechanisms for interacting with files.  The choice of which to use depends on the programming style and requirements of the project and the personal preferences of the programmer.
 
-#### Recorded Lecture
-[Reading and Writing Text files](http://localhost:8000/lectures/inputOutput/TextFiles/)
-
-#### Practice 
- - Tutorial: [Reading Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedReader.ipynb) 
- - Tutorial: [Writing Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedWriter.ipynb) 
-
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/textFiles)  
+ 

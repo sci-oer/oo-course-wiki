@@ -37,8 +37,4 @@ Java provides many data structures for use by programmers.   In Java these struc
 * Java comes several useful collections found in the `java.util` package.
    * e.g. ArrayList, Vector, LinkedList, HashMap
 
-#### Practice
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/dataStructures/collectionsDataStructures)
-
 

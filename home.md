@@ -14,94 +14,110 @@ This OER resource of information and activities will help you learn how to progr
 # Tabs here{.tabset}
 
 
-## Plan of Study
+## Fall 2023
 ### Tabs here{.tabset}
-#### Weeks 1-2
-##### Tools used in this course
-  - [Tutorials](/tools/jupyterLabIntro)
-  - [Programming with a Text Editor](/tools/editors)
-  - [Programming with VS Code](/tools/vsCodeIntro)
-  - [List of other tools](/tools)
+#### Q1
+##### Sept. 7
+ - *Interpreted Languages*
+   - E-Text: [Interpreted Languages](/java/interpretedLanguage)
+ - *OO Programming compared to Procedural Programming*
+   - E-Text: [OO vs Procedural](/ooConcepts/proceduralOOCompare)
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/proceduralOOCompare) 
 
-##### Vocabulary
-  - [Classes, Objects and Instances](/ooConcepts/classes)
-  - [Instance Methods](/ooConcepts/methods)
-  - [Instance Variables](/ooConcepts/variables)
-  - [Class Methods and Variables](/ooConcepts/classMembers)
-  - [Encapsulation](/ooDesign/encapsulation)
+##### Sept. 12
+ - *Classes, Objects and Instances* 
+   - E-Text: [Classes](/ooConcepts/classes)
+   - Mini Lecture:[Classes, Objects and  Instances ](http://localhost:8000/lectures/ooConcepts/ClassesObjectsInstances/)
+   - Mini Lecture:[Classes in Memory](http://localhost:8000/lectures/ooConcepts/ClassesInMemory)
+   - Tutorial: [Declaring and using instances](http://localhost:8888/lab/tree/tutorials/ooConcepts/objectsAndInstances.ipynb) 
+   - Tutorial: [Creating a class in Java](http://localhost:8888/lab/tree/tutorials/ooConcepts/classStructure.ipynb)
+  - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/classes)
+ - *References*
+  - E-Text: [Java References](/ooConcepts/references)
+  - Mini Lecture:[Review of Pointers in C](http://localhost:8000/lectures/ooConcepts/PointerReview/)
+  - Mini Lecture:[Objects in Memory using Java](http://localhost:8000/lectures/ooConcepts/ReferencesInJava/)
+  - Tutorial: [References](http://localhost:8888/lab/tree/tutorials/ooConcepts/references.ipynb) 
+  - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/references) 
 
-##### Beginning Java
-  - [Java Hello World](/java/helloWorld)
-  - [Java Syntax](/java/syntaxGuide)
-  - [Java Compilation](/java/interpretedLanguage)
-  - [The main method](/java/mainMethod)
-  - [Stdin with `Scanner`](/inputOutput/stdin)
-  - [Stdout with `System.out`](/inputOutput/stdout)
+##### Sept. 14
+- *Message Passing*
+   - E-Text: [Message Passing (Calling Methods)](/ooConcepts/messagePassing)
+   - Mini Lecture:[Message Passing](http://localhost:8000/lectures/ooConcepts/MessagePassing/)
+   - Tutorial: [Message Passing to Strings](http://localhost:8888/lab/tree/tutorials/ooConcepts/messagePassing.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/messagePassing) 
+- *Output Stream*
+ - E-Text: [Using System.out](/inputOutput/stdout)
+ - Tutorial: [Formatting Output](http://localhost:8888/lab/tree/tutorials/inputOutput/userOutput.ipynb) 
+ - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/stdout)
 
-  
-#####  OO Programs
-  - [Procedural Programming vs OO Programming](/ooConcepts/proceduralOOCompare) 
-  - [References](/ooConcepts/references)
-  - [Message Passing](/ooConcepts/messagePassing)
-  - [Objects composed of other Objects](/ooDesign/aggregation)
-  - [Accessors and Mutators](/ooDesign/accessorsMutators)
-  - [Access Control](/java/accessControls)
-  - [Creating objects using constructors](/ooDesign/constructors)
+##### Sept. 19
+ - *Methods*
+   - E-Text: [Writing methods](/ooConcepts/methods)
+   - Tutorial: [Instance Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceMethods.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/methods) 
+ - *Aggregation*
+   - E-Text: [Aggregation:Objects using Objects](/ooDesign/aggregation)
+   - Mini Lecture:[Using Aggregation](http://localhost:8000/lectures/ooDesign/Aggregation/)
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/aggregation) 
+ - *Text Editors*
+  - E-Text: [Coding with a text editor](/tools/editors)
 
-#### Weeks 3-7
-#####  I/O
+##### Sept. 21
+ - *Exceptions*
+   - E-Text: [Handling exceptions](/errors/exceptions)
+   - Mini Lecture:[Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
+   - Tutorial: [Try Catch](http://localhost:8888/lab/tree/tutorials/errors/tryCatch.ipynb) 
+   - Tutorial: [Try With Resources](http://localhost:8888/lab/tree/tutorials/errors/tryWithResources.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/errors/exceptions)
+ - *Constructors*
+  - E-Text: [Creating objects](/ooDesign/constructors)
+  - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/constructors)
+##### Sept. 26
+- *Instance Variables*
+   - E-Text: [Instance Variables](/ooConcepts/variables)
+   - Tutorial: [Instance Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceVariables.ipynb) 
+  - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/variables) 
 
-- [Headless Computing](/inputOutput/headlessComputing)
-- [Streams](/inputOutput/streams)
-- [Stdin (review)](/inputOutput/stdin)
-- [Stdout (review)](/inputOutput/stdout)
-- [Text Files](/inputOutput/textFiles)
-- [Binary Files](/inputOutput/binaryFiles)
-- [Object Serialization](/inputOutput/serialization)
+ -  *Accessors and Mutators*
+   - E-Text: [Accessors and Mutators](/ooDesign/accessorsMutators)
+   - Tutorial: [Accessors and Mutators](http://localhost:8888/lab/tree/tutorials/ooDesign/accessorsMutators.ipynb) 
 
-#####  Errors
+##### Sept. 28
+ - *The `this` keyword*
+  - E-Text: [`this` as a keyword](/java/this)
+ - *class members*
+   - E-Text: [Static, or class, members](/ooConcepts/classMembers)
+   - Tutorial: [Class Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticMethods.ipynb) 
+   - Tutorial: [Class Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticVariables.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/classMembers) 
+#### Q2
 
-- [Software Errors](/errors/errorsVsBugs)
-- [Debugging](/errors/debugging)
-- [Exceptions](/errors/exceptions)
+#####  Oct. 3
+#####  Oct. 5
+#####  Oct. 12
+#####  Oct. 17
+#####  Oct. 19
 
-#####  Testing
+#### Q3
 
-- [Software Testing Intro](/testing/testing)
-- [Unit Testing](/testing/unitTesting)
-- [Identifying Test Cases](/testing/testCases)
-- [Unit testing with JUnit](/tools/junit)
+#####  Oct. 24
+#####  Oct. 26
+#####  Oct. 31
+#####  Nov. 2
+#####  Nov. 7
+#####  Nov. 9
+
+#### Q4
+
+#####  Nov. 14
+#####  Nov. 16
+#####  Nov. 21
+#####  Nov. 23
+#####  Nov. 28
+#####  Nov. 30
 
 
-##### Collections
-
-- [Collections and Data Structures](/dataStructures/collectionsDataStructures)
-- [Java Collections](/dataStructures/collections)
-- [Collections Framework](/dataStructures/collectionsFramework)
-
-#### Weeks 8-12
-#####  Best Practices
-   - [Information Hiding/ Encapsulation](/ooDesign/encapsulation)
-  - [Single Responsibility Principle](/ooDesign/singleResponsibility)
-  - [Avoid duplicate code](/ooDesign/duplicateCode)
-  - [Organization and Naming Conventions](/tools/checkstyle)
-
-#####  Polymorphism
-
-- [Polymorphism](/ooDesign/polymorphism)
-- [Polymorphism via Interfaces](/ooDesign/interfaces)
-- [Polymorphism via Inheritance](/ooDesign/inheritance)
-
-#####  Event Driven Programming
-
-  - [Events](/eventDrivenProgramming/events)
-  - [Event Handlers](/eventDrivenProgramming/eventHandlers)
-  - [UX/UI Design Intro ](/eventDrivenProgramming/uxDesignBasics)
-  - [Graphical User Interface ](/eventDrivenProgramming/gui)
- 
-
-#### Advanced
-
+#### Advanced Topics
 ##### Generics
 
 The use of parameterized types (Generics)  increases the type-safety of an OO program.  In this section we learn how to create our own Generic types and use them. 

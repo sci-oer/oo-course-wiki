@@ -8,12 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:27.585Z
 ---
 
-### Prerequisite Knowledge
-[Binary Files](/inputOutput/binaryFiles)
-[Object Oriented Concepts](/ooConcepts)
-[Interfaces](/ooDesign/interfaces) may be helpful
-
-
 # Object Serialization
 Sometimes it is necessary to persistently save the state of an object.   Perhaps the program needs to stop computation for a while and then pick up again later, or perhaps the program needs to send the object and its state to some other program. There are many different solutions to this problem, one of which is object serialization.
 
@@ -145,7 +139,3 @@ It can also be used to send serialized objects across network connections to rem
 
 
 
-#### Practice 
-- Tutorial: [Serialization Demo](http://localhost:8888/lab/tree/tutorials/inputOutput/serialization.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/serialization)  

@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:47:25.363Z
 ---
 
-#### Prerequisite Knowledge
-- [Fundamental OO Concepts](/ooConcepts)
 
 # Input and output in OO programming
 
@@ -95,8 +93,7 @@ Input and Output stream classes are designed to work with binary data.  Again, t
 - [java.io.ObjectOutputStream](http://localhost:8000/docs/api/java.base/java/io/ObjectOutputStream.html)
 - [java.io.ObjectInputStream](http://localhost:8000/docs/api/java.base/java/io/ObjectInputStream.html)
 
-#### Recorded Lecture
-- [Stream Based Input Output ](http://localhost:8000/lectures/inputOutput/StreamBasedIO/)
+
 
 
   

@@ -8,10 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:31.758Z
 ---
 
-#### Prerequisite Knowledge
-- [Java Collections Framework](/dataStructures/collectionsFramework)
-
-
 # Collection Classes
 
 The Java Collections Framework contains many interfaces and abstract classes that facilitate easy development of specialized collections.  However, it also contains several concrete classes that can be used directly in your programs.
@@ -144,15 +140,4 @@ A set is also a very useful construct for tasks where the number of unique eleme
 		System.out.println("The number of unique words is: " + words.size());
 ```
 
-#### Recorded Lecture
-[Using ArrayList](http://localhost:8000/lectures/dataStructures/ArrayList/)
-[Using HashMap](http://localhost:8000/lectures/dataStructures/HashMap/)
-
-
-#### Practice 
- - Tutorial: [Using ArrayList](http://localhost:8888/lab/tree/tutorials/dataStructures/ArrayList.ipynb) 
- - Tutorial: [Using HashMap](http://localhost:8888/lab/tree/tutorials/dataStructures/HashMap.ipynb)
-  - Tutorial: [Using HashSet](http://localhost:8888/lab/tree/tutorials/dataStructures/HashSet.ipynb)
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/dataStructures/collections)
   

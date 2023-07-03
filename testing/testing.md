@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:16:12.077Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-
 # Testing and Debugging
 
 Errors that prevent software from compiling correctly are not bugs. They are simply syntax errors that must be fixed.
@@ -101,7 +98,5 @@ A manual walkthrough of the code does not use the computer.  Instead the program
 
 
 
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/testing/testing)  
+ 
   

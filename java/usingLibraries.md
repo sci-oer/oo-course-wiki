@@ -8,10 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:48:03.771Z
 ---
 
-#### Prerequisite Knowledge
-[Hello World](/java/helloWorld)
-[Classes](/ooConcepts/classes)
-
 # Using External Libraries
 
 * A library of code is just a set of methods/procedures/classes that have been tested and made available for reuse.

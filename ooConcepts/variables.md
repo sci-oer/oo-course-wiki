@@ -8,11 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:16.850Z
 ---
 
-#### Prerequisite Knowledge
-[Classes and Instances](/ooConcepts/classes)
-[Message Passing](/ooConcepts/messagePassing)
-[Instance Methods](/ooConcepts/methods)
-
 # Instance Variables
 * Recall that **instance** is equivalent to **object**
 * An instance variable is a variable that exists in exactly one object.
@@ -86,9 +81,4 @@ Notice that the faceValue variable in the two instances noted above now have dif
 {.is-info}
 
 
-
-#### Practice 
- - Tutorial: [Instance Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceVariables.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/variables)  
 

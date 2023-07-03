@@ -8,10 +8,7 @@ editor: markdown
 dateCreated: 2022-05-02T19:46:47.082Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Functional Programming](/functionalProgramming/functionalProgramming)
-- [Functional Interfaces](/functionalProgramming/functionalInterfaces)
+
 
 # Lambda expressions as GUI listeners
 
@@ -43,6 +40,3 @@ openItem.addActionListener( ev -> controller.openFile(););
 
 
 
-#### Practice 
-  
-- [Practice Activities](/practiceActivities/functionalProgramming/lambdaListeners)

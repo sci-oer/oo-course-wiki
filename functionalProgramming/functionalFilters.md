@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:46:23.699Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Functional Programming](/functionalProgramming/functionalProgramming)
 
 # Filter
 A filter operation selects items from the input stream to pass on to the output stream based on some characteristic of the input stream element.

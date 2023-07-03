@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:47:35.082Z
 ---
 
-#### Prerequisite Knowledge
-[Hello World in Java](/java/helloWorld)
-[Classes and Instances ](/ooConcepts/classes)
 
 # Access Control
 

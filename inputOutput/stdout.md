@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:33.067Z
 ---
 
-#### Prerequisite Knowledge
--[Streams](/inputOutput/streams)
 
 # Terminal Output to Users
 
@@ -44,7 +42,3 @@ The StringBuilder class has methods for operations such as appending to a string
 > The `StringBuilder` class is in the `java.lang` package which is imported automatically. You don't have to explicitly import to use StringBuilder.
 {.is-info}
 
-#### Practice 
- - Tutorial: [Formatting Output](http://localhost:8888/lab/tree/tutorials/inputOutput/userOutput.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/stdout) 

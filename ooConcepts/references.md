@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:14.396Z
 ---
 
-#### Prerequisite Knowledge
-[Java Hello World](/java/helloWorld)
-[Classes and Instances](/ooConcepts/classes)
 
 # References (Pointers)
 
@@ -62,14 +59,3 @@ Then one of the reference variables is reset to point at the same instance as th
 
 If you've programmed in C or C++ you have likely noticed that this practice appears to generate lots of memory leaks because the memory isn't deallocated. Java handles all the memory management for you. When there are zero references pointing to an instance, that instance is scheduled for garbage collection and will be freed and placed back on the heap for use.
 
-#### Recorded Lecture
-
-[Review of Pointers in C](http://localhost:8000/lectures/ooConcepts/PointerReview/)
-
-[Objects in Memory using Java](http://localhost:8000/lectures/ooConcepts/ReferencesInJava/)
-
-
-#### Practice 
- - Tutorial: [References](http://localhost:8888/lab/tree/tutorials/ooConcepts/references.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/references)  

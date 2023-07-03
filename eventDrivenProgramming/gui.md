@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:52.456Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-
 # Graphical User Interfaces
 
 GUI programming is the most common example of event driven programming. 
@@ -145,8 +142,3 @@ This example GUI contains no code for handling events. The *event handlers* must
 
 
 
-#### Recorded Lecture
-[Creating a basic GUI](http://localhost:8000/lectures/eventDrivenProgramming/GUIConstruction/)
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/gui)  

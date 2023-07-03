@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:42.423Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Cohesion and Coupling](/ooDesign/cohesionCoupling)
 
 # Single Responsibility Principle
 
@@ -78,5 +75,3 @@ A second type of matrix can be used to help understand the way that responsibili
 For each method the signature, its responsibility, instance variables and helper methods, and other objects used in the method are listed.  It is often useful to list the approximate number of lines of code as well.  This type of matrix is very useful to understand which methods in a class may need to be refactored or moved to other classes.
 
 
-#### Practice 
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/singleResponsibility) 

@@ -35,5 +35,3 @@ It takes much practice to become an expert git user, but it is easy to use git e
 - git rm
    - removes something from the git store (not from the drive)
 
-#### Recorded Lecture
-- [Using Git for Java Programming](http://localhost:8000/lectures/tools/Git/)

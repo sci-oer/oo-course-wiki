@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:49:11.209Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Polymorphism](/ooDesign/polymorphism)
 
 # Polymorphism via Inheritance
 
@@ -207,8 +204,3 @@ An abstract class can have any number of abstract and/or fully defined methods. 
 
 
 
-#### Practice 
- - Tutorial: [Creating Subclasses](http://localhost:8888/lab/tree/tutorials/ooDesign/creatingSubclasses.ipynb)
- - Tutorial: [Abstract Classes](http://localhost:8888/lab/tree/tutorials/ooDesign/abstractClasses.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/inheritance) 

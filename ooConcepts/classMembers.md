@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:00.493Z
 ---
 
-#### Prerequisite Knowledge
-- [Instance Methods](/ooConcepts/methods)
-- [Instance Variables](/ooConcepts/variables)
 
 # Class Members
 Attributes, or members of a class that do not vary with the instance are called **class members**.  In Java class members are denoted with the keyword `static` and are often referred to as **static members**.
@@ -103,14 +100,6 @@ Static constants may be assigned `public` access because they cannot be changed.
  `public static final int BIRTH_YEAR = 1954;`
 
 
-#### Practice 
- - Tutorial: [Class Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticMethods.ipynb) 
- - Tutorial: [Class Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticVariables.ipynb) 
-
-
-
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/classMembers)  
 
 
   

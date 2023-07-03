@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:21.895Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-
 # Aggregate Objects
 
 The concept of **aggregation** is as important as abstraction in the skillful use of Object-Oriented programming. Aggregation is effected by composing classes by using other classes as composite parts. In the same way that a motor vehicle is an aggregate of doors, windows, motor, tires, seats, etc, a class can be an aggregate of other classes.
@@ -49,8 +46,3 @@ Aggregation is also described as a **has-a** relationship, but it is a relations
 
 In both cases the relationship is represented in a class diagram using the diamond arrowhead.  If the arrowhead is filled in, it represents composition. If the arrowhead is hollow, it represents aggregation.
 
-#### Recorded Lecture
-[Using Aggregation](http://localhost:8000/lectures/ooDesign/Aggregation/)
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/aggregation)  

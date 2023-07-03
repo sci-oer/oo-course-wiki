@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:39.912Z
 ---
 
-#### Prerequisite Knowledge
-- [Object Oriented Concepts](/ooConcepts)
-
 # Polymorphism
 
 * Object Oriented Design relies on the idea of an object being a member of more than one type of object. For example, a variable of type [`ArrayList`](http://localhost:8000/docs/api/java.base/java/util/ArrayList.html) is also of type `AbstractList` as well as type `Object`. This idea is called **polymorphism**
@@ -50,7 +47,5 @@ Java permits polymorphism through two main avenues: the use of [Interfaces](/ooD
 Polymorphic are shown on the diagram by a line ending with a triangle arrowhead. Interfaces are shown in the diagram with dotted borders and dotted connecting lines.  Inheritance is shown when classes are connected with a solid line.   
 
 
-#### Practice 
 
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/polymorphism) 
 

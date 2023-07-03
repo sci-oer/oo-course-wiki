@@ -8,9 +8,7 @@ editor: markdown
 dateCreated: 2022-05-02T19:49:16.153Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Polymorphism](/ooDesign/polymorphism)
+
 # Polymorphism via Interfaces
 
 An **Interface** is the mechanism Java provides to allow objects to be grouped together when they have similar functionality, but not an obvious parent-child relationship.  Many OO programmers feel that the use of Interfaces is better programming practice than over use of Inheritance.  
@@ -98,8 +96,7 @@ Because an interface is a type, parameters and return types can be interface typ
 
 
 
-#### Practice 
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/interfaces) 
+
 
   
 

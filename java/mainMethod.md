@@ -8,10 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:47:49.648Z
 ---
 
-#### Prerequisite Knowledge
-[Writing a Hello World Program](/java/helloWorld)
-[Interpreted Languages](/java/interpretedLanguage)
-
 
 # Java's default method: main()
 
@@ -107,7 +103,4 @@ public class Pet{
 ```
 
 
-#### Practice 
- - Tutorial: [Main Method Practice](http://localhost:8888/lab/tree/tutorials/java/mainMethod.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/java/mainMethod)  
+ 

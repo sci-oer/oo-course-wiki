@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:54.897Z
 ---
 
-#### Prerequisite Knowledge
-[OO Concepts](/ooConcepts)
-[Accessors and Mutators](/ooDesign/acessorsMutators)
 
 # `this` keyword
 

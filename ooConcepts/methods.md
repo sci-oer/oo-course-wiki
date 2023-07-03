@@ -8,11 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:09.388Z
 ---
 
-#### Prerequisite Knowledge
-- [Classes and Instances](/ooConcepts/classes)
-- [Message Passing](/ooConcepts/messagePassing)
-- [References to objects](/ooConcepts/references)
-
 # Instance Methods
 An instance method can only be executed by making the method call using an instance of the class that defines the method.  Suppose we had defined a `Pet` class that had a method called `doTricks()`. We could call that method by first creating an instance of type `Pet`  with `Pet myPet = new Pet()`.  We could then ask that instance of pet to do tricks by using the reference variable to call the method `myPet.doTricks()`.  
 
@@ -45,9 +40,3 @@ The objects or instances of a class share the memory for method definitions. Whe
 >   1. Methods that perform an action on the state of the object (void method)
 {.is-info}
 
-
-
-#### Practice 
- - Tutorial: [Instance Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceMethods.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/methods) 

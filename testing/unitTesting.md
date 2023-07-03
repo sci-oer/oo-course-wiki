@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:50:27.168Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Test Cases](/testing/testCases)
 
 # Unit Testing
 
@@ -89,7 +86,4 @@ Running a suite of junit tests is handled with a few lines of code and the 	`Res
 {.is-info}
 
 
-#### Practice 
 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/testing/unitTesting)  

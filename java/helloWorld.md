@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:44.077Z
 ---
 
-#### Prerequisite Knowledge
-
-[Using the Tutorials](/tools/jupyterLabIntro)
 
 # Java Hello World
 
@@ -69,10 +66,4 @@ In the main method example  you can see the declaration of a variable of type He
 
 In general for object-oriented programs written in Java, the main method should not be doing much of the computing or work of the program. All the main method does is set up the environment and start the execution.
 
-#### Recorded Lecture
-[Intro to Java](http://localhost:8000/lectures/java/JavaIntro/)
 
-#### Practice 
- - Tutorial: [Creating Hello World](http://localhost:8888/lab/tree/tutorials/java/helloWorld.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/java/helloWorld)  

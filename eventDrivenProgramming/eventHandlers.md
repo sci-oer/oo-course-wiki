@@ -8,9 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:47.374Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Cohesion and Coupling](/ooDesign/cohesionCoupling)
+
 
 # Handling Events
 A program can only respond to events if it has been constructed in a way that it first knows an event has occured and then knows what to do if that event occurs. For example, a command line program to list all of the files in a directory (`ls`) has no need to respond to mouseclick events and, as such, has not been written to include an event handler for mouse clicks. A graphical editor, on the other hand, does need to respond to mouse clicks thus it is written with software components to interpret and react to the mouse.
@@ -80,7 +78,3 @@ The syntax shown below accomplishes the same goals as the earlier example, but t
 ```
 The use of [lambda expressions](/functionalProgramming/lambdaListeners) to add listeners to a GUI component can greatly increase cohesion and reduce coupling.   
 
-
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/eventHandlers)  

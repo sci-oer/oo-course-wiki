@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:48:57.144Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [`this` keyword](/java/this)
 
 # Object creation with constructors
 
@@ -85,8 +82,6 @@ Some approaches to OO design suggest that constructors are to be avoided.   Thos
 {.is-info}
 
 
-#### Practice 
- 
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/constructors)
+
 
  

@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:11.912Z
 ---
 
-#### Prerequisite Knowledge
-- Experience programming in a procedural language
 
 
 # Programming Paradigms
@@ -57,6 +55,3 @@ The fundamental components of an OO program are classes, attributes and methods.
 
 
 
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/proceduralOOCompare) 

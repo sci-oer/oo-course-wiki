@@ -8,9 +8,7 @@ editor: markdown
 dateCreated: 2022-05-02T19:47:54.501Z
 ---
 
-#### Prerequisite Knowledge
-Experience programming in at least one language
-[Java Hello World](/java/helloWorld)
+
 
 # Java Syntax Guide
 

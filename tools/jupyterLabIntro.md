@@ -37,6 +37,4 @@ As you can see in the image above, the solution to the Hello World program in Ja
 
 Also if you wish to edit or write code into a coding cell on `Jupyter Lab` all you need to do is double click on the cell. Once you are in the cell all your changes are automatically saved and will be updated for you the next time you run the kernel.
 
-#### Recorded Lecture
-[Example of Using Jupyter Lab](http://localhost:8000/lectures/aboutOER/UsingJupyterLab/)
 

@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:30.298Z
 ---
 
-#### Prerequisite Knowledge
-- [Introduction to I/O Streams](/inputOutput/streams)
-- [Standard Output](/inputOutput/stdout)
 
 # Keyboard input with Scanner
 
@@ -45,9 +42,4 @@ The nextLine method of the Scanner class returns all the text up to the next 'ne
 
 
 
-#### Practice 
- - Tutorial: [Getting Keyboard Input](http://localhost:8888/lab/tree/tutorials/inputOutput/userInput.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/stdin)  
-  
 

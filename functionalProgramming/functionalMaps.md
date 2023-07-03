@@ -8,9 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:04.965Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Functional Programming](/functionalProgramming/functionalProgramming)
+
 
 # Map
 

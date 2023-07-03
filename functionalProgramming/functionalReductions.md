@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:09.887Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Functional Programming](/functionalProgramming/functionalProgramming)
 
 # Reductions
 

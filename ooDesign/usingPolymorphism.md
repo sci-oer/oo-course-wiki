@@ -8,10 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:44.970Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Polymorphism via Interfaces](/ooDesign/interfaces)
-- [Polymorphism via Inheritance](/ooDesign/inheritance)
+
 # Taking advantage of Polymorphism
 
 A key advantage of polymorphism is the ability to create classes that operate on an abstraction. Consider the example shown in the class diagram.
@@ -157,7 +154,3 @@ Again, each object knows exactly which implementation of `makeNoise()` to call b
 
 
 
-#### Practice 
- - Tutorial: [Programming with Polymorphism](http://localhost:8888/lab/tree/tutorials/ooDesign/usingPolymorphism.ipynb) 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/usingPolymorphism) 

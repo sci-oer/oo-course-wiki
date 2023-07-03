@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:14:23.319Z
 ---
 
-#### Prerequisite Knowledge
-prior experience with command line operation of computer 
 
 # Displays and Computers
 

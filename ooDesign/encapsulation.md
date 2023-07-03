@@ -8,8 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:32.147Z
 ---
 
-#### Prerequisite Knowledge
-- [Object Oriented Concepts](/ooConcepts)
+
 # Information Hiding/ Encapsulation
 
 **Abstraction and encapsulation are often confused:**
@@ -31,8 +30,3 @@ Encapsulation can be accomplished through the use of design approaches such as:
    - including toString and equals
    - restricting the public API to only required methods
    
-#### Recorded Lecture
-[Encapsulation](http://localhost:8000/lectures/ooDesign/Encapsulation/)
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/encapsulation) 

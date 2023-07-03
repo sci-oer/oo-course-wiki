@@ -8,10 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:45:40.527Z
 ---
 
-#### Prerequisite Knowledge
-
-- [Data Structures](/dataStructures/collectionsDataStructures)
-
 
 ## Java Collections Framework
 
@@ -47,10 +43,3 @@ The naming of the collections available can be confusing because the second word
   * The second word reveals organizational relatedness.
 
 
-#### Recorded Lecture
-[Java Collections Framework](http://localhost:8000/lectures/dataStructures/CollectionsFramework)
-
-#### Practice 
-- [Self Study Exercises and Practice Problems](/practiceActivities/dataStructures/collectionsFramework)
-
-  

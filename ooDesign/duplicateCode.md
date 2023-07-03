@@ -8,10 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:29.701Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Cohesion and Coupling](/ooDesign/cohesionCoupling)
-
 # OO Design Techniques
 
 ## Avoid/Remove Duplicate Code 

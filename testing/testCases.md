@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:16:09.633Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Testing Basics](/testing/testing)
 
 # Test Cases
 
@@ -102,7 +99,4 @@ Once the test cases are identified, they can be used to create a script, or used
 
 
 
-#### Practice 
- - Tutorial: [Creating Hello World](http://localhost:8888/lab/tree/tutorials/java/helloWorld.ipynb) 
 
-- [Self Study Exercises and Practice Problems](/practiceActivities/testing/testCases)  

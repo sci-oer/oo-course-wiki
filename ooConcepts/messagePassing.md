@@ -8,8 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:06.037Z
 ---
 
-#### Prerequisite Knowledge
-[Classes and Instances](/ooConcepts/classes)
+
 
 # Message Passing
 
@@ -73,8 +72,3 @@ The Object-Oriented way to find the length of the string is to send a *message* 
 
 The public instance methods of a Java class make up the possible messages that can be passed to an instance of that class.  By convention Java programmers use [Javadoc](/tools/javadocs) comments to identify those methods and create documentation about their use.   This resource contains a copy of the [javadoc comments for the Java programming language](http://localhost:8000/docs/api/index.html) to help you learn about the possible messages that can be passed to the built in Java classes.
 
-#### Recorded Lecture
-[Message Passing](http://localhost:8000/lectures/ooConcepts/MessagePassing/)
-#### Practice 
- - Tutorial: [Message Passing to Strings](http://localhost:8888/lab/tree/tutorials/ooConcepts/messagePassing.ipynb) 
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/messagePassing)  

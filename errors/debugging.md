@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-05-02T19:45:45.091Z
 ---
 
-#### Prerequisite Knowledge
-
-- [Errors and Bugs](/errors/errorsVSBugs)
 
 # Strategies for Debugging
 
@@ -65,8 +62,4 @@ Point newLocation = location.translate(width, height);
 rect.setLocation(newLocation);
 ```
 
-
-
-#### Practice 
-- [Self Study Exercises and Practice Problems](/practiceActivities/errors/debugging)  
 

@@ -8,8 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:19.393Z
 ---
 
-#### Prerequisite Knowledge
-- [Encapsulation](/ooDesign/encapsulation)
+
 # Accessors and Mutators
 
 One key technique for improving the encapsulation of an Object-Oriented program is to use public methods called *accessors* and *mutators* to ensure that the data belonging to a class is valid and accessed appropriately.
@@ -75,6 +74,4 @@ The most important thing to notice however, is that the Doggie Daycare code will
 
 
 
-#### Practice 
- - Tutorial: [Accessors and Mutators](http://localhost:8888/lab/tree/tutorials/ooDesign/accessorsMutators.ipynb) 
 

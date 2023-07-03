@@ -8,9 +8,6 @@ editor: markdown
 dateCreated: 2022-08-09T14:34:29.056Z
 ---
 
-#### Prerequisite Knowledge
-
-[Using the Tutorials](/tools/jupyterLabIntro)
 # Interpreted Programming Languages
 
 

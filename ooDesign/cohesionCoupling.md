@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:15:24.427Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
 
 # Software Metrics
 
@@ -158,9 +156,4 @@ Contrast the previous dependency graph with the one shown below (taken from an i
 Loose coupling makes it possible to understand one class without reading other classes that it may use. Loose coupling allows us to change one class with little or no effect on other classes. Loose coupling increases maintainability of code.
 
 
-#### Recorded Lecture
-[Cohesion and Coupling](/ooDesign/cohesionCoupling)http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
 
-#### Practice 
-
-- [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/cohesionCoupling)  

@@ -8,9 +8,7 @@ editor: markdown
 dateCreated: 2022-05-02T19:46:18.765Z
 ---
 
-#### Prerequisite Knowledge
-- [OO Concepts](/ooConcepts)
-- [Functional Programming](/functionalProgramming/functionalProgramming)
+
 # Functional Collection Processing
 Java provides features that enable a programmer to create functional solutions when appropriate. In particular the ability to process the elements of a collection using a functional approach increases readability and helps to ensure that side effects of the processing don't occur. One of the advantages of functional processing of collections is that parallel processing is easily accomplished which makes processing large collections much faster.
 
@@ -82,6 +80,4 @@ strings.stream()
 
 
 
-#### Practice 
- - Tutorial: [collection processing](http://localhost:8888/lab/tree/tutorials/functionalProgramming/collectionProcessing.ipynb)
 

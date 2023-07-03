@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2022-08-17T18:13:42.028Z
 ---
 
-#### Prerequisite Knowledge
-- [Object Oriented Concepts](/ooConcepts)
 
 # Errors
 
