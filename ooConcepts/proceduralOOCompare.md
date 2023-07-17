@@ -41,7 +41,7 @@ Object-Oriented programs consist of a collection of classes that provide mechani
 
 When a developer creates an Object-Oriented program they first consider the 'entities' or classes that are represented in the problem description. They identify the capabilities that each of those classes must have by examining each requirement of the program in the context of how each class must be manipulated.
 
-One of the biggest advantages of OO programming is that the resulting classes can be reused in other programs. The creation of an OO program is somewhat similar to creating a reusable library of code. This reusability helps avoid the issue of code being written repeatedly throughout a program.
+One of the biggest advantages of OO programming is that the resulting classes can be reused in other programs. The creation of an OO program is somewhat similar to creating a reusable library of code. This reusability helps avoid the issue of code being repeated throughout a program.
 
 ### OO/Procedural Comparison
 The fundamental components of an OO program are classes, attributes and methods. Constructors are a specialized form of method.
@@ -54,4 +54,15 @@ The fundamental components of an OO program are classes, attributes and methods.
 |     Constructors    |     malloc memory for a struct    |
 
 
+### A real-world example
+
+Consider the process of cooking and consuming a meal.    
+
+A procedural version of that process is often followed in our homes.  Often the meal is planned, cooked, consumed and clean up due to the efforts of one person.    Even when others are involved there is often no concrete distinction between the individuals in terms of the tasks done.  The procedures are planning, cooking, consuming and cleaning.
+
+An object-oriented version of that process is often followed in restaurants.   A host directs you to your table.  A server takes your order.  A cook prepares your food.  A server delivers your food.  A busser carries the used dishes to the dishwashing area.  A dishwasher washes the dishes. The objects in this example are host,server,cook, busser,dishwasher and patron(you).  
+
+Each object encapsulates the procedures from the procedural example. For example the `Cook` class might have a method called `createMeal()` that takes a menu item number as a parameter and the `Server` class might have a method called `deliverMeal()` that takes a table number.
+
+Object-oriented programs are not universally better than procedural programs. Part of becoming a great programmer is knowing which paradigm to use given a particular situation.
 

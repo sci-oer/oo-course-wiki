@@ -13,7 +13,7 @@ dateCreated: 2022-05-02T19:50:27.168Z
 
 Unit testing is intended to validate small parts, or units, of source code. A unit is any small testable part of an application. For Java applications a unit is often a class with each method considered as a sub-unit.
 
-Unit testing consists of Formal, repeatable tests that are designed for specific classes and methods; Each unit of an application has its own tests. Unit testing should be created in parallel with development.  Testing isn't something that should be done after the software is completed.
+Unit testing consists of formal, repeatable tests that are designed for specific classes and methods. Each unit of an application has its own tests. Unit testing should be created in parallel with development.  Testing isn't something that should be done after the software is completed.
  
  
 >  Early repeatable testing saves programmer time overall and has the advantage that a test suite is built up and can be used for regression testing when software is modified.
@@ -23,9 +23,9 @@ Unit testing consists of Formal, repeatable tests that are designed for specific
 
 ### Writing Unit tests
 
-Unit tests are created after the [Test Cases](/testing/testCases) are identified. A program called a **test harness** is created that is used to execute the software being tested and provide the test cases. The test harness methodically invokes each test case and provides a report of which cases have passed and which have failed. Often a framework such as [Junit](/tools/junit) is used to create the test harness.
+Unit tests are created after the [Test Cases](/testing/testCases) are identified. A program called a **test harness**  or **test framework** is created that is used to execute the software being tested and provide the test cases. The test harness methodically invokes each test case and provides a report of which cases have passed and which have failed. Often a framework such as [Junit](/tools/junit) is used.
 
-Suppose we were creating a test harness for a method that replaces all vowels in a string variable with the consonant that immediately following the vowel in alphabetical order. Some suggested [test cases for this method were identified in a separate wiki page](/testing/testCases).  Further suppose that this method exists in a class called `StringChanger` and the method is called `stripVowels`. Our test harness for one of the test cases might look something like the code shown below.
+Suppose we were creating tests for a method that replaces all vowels in a string variable with the consonant that immediately following the vowel in alphabetical order. Some suggested [test cases for this method were identified in a separate wiki page](/testing/testCases).  Further suppose that this method exists in a class called `StringChanger` and the method is called `stripVowels`. Our test harness for one of the test cases might look something like the code shown below.
 
 ```java
 StringChanger tester;
@@ -43,9 +43,9 @@ if (output.equals("prtbsr")) {  // the known to be correct value
 
 A similar segment of code would be written for each test case and the overall test harness would need to have some mechanism for counting and reporting on successes and failures.
 
-This test harness code would be run every time a change is made to the `stripVowels` method to ensure that the change hasn't broken previously working functionality.
+This testing code would be run every time a change is made to the `stripVowels` method to ensure that the change hasn't broken previously working functionality.
 
-Fortunately, most programming languages have testing frameworks, like [Junit](/tools/junit),  that provide all of the functionality for counting and reporting on tests.  The programmer still needs to identify the test cases and the correct output but much of the work of building a test harness is provided with the framework.
+Fortunately, most programming languages have testing frameworks, like [Junit](/tools/junit),  that provide all of the functionality for counting and reporting on tests.  The programmer still needs to identify the test cases and the correct output but much of the work of building tests is provided with the framework.
 
 ### Unit tests with Junit
 
@@ -72,15 +72,8 @@ public void stripVowel_a_test(){
 
 ```
 
-Running a suite of junit tests is handled with a few lines of code and the 	`Result` object contains metrics about the tests run.
+Running a suite of junit tests is usually handled by build tools such as gradle or maven.  It is also possible to run the tests programatically from your own application.
 
-```java
-   Result result = JUnitCore.runClasses(StringChangerTest.class);
-    System.out.print("Tests run: ");
-    System.out.println(result.getRunCount());
-    System.out.print("Tests failed: "); 
-    System.out.println(result.getFailureCount());
-```
 
 > It is worth your time to learn to use a unit testing framework.
 {.is-info}

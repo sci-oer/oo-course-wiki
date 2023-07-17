@@ -16,11 +16,11 @@ Like [Javadoc](/tools/javadocs), Junit uses the java annotation framework.  It r
 
 One common method of using junit is to create a test class in parallel with each application class. The tests are included in the src tree but separated from the application classes as shown in the figure below.
 
-![Standard gradle file/folder hierarchy shown with the src folder expanded. The src folder has two subfolders, main and test.   Those two subfolders have identical internal folder structures](/testingfiles.png)
+![Standard gradle file/folder hierarchy shown with the src folder expanded. The src folder has two subfolders, main and test.   Those two subfolders have identical internal folder structures](/images/testingfiles.png)
   
 Gradle automatically runs junit tests when a program is built using gradle build.   The results are printed to the screen but also are written to the build folder in a `test-results` sub folder.   The XML file can be read by any text editor and most browsers.  
 
-![Standard gradle file/folder hierarchy shown with the build folder expanded. The test-results subfolder is circled to highlight where to look for junit test results.](/testresultsjunit.png)
+![Standard gradle file/folder hierarchy shown with the build folder expanded. The test-results subfolder is circled to highlight where to look for junit test results.](/images/testresultsjunit.png)
 
 If you need to compile your code without running the tests you can use the `-x` flag to gradle to exclude the test step.  `gradle -x test`
 
@@ -71,55 +71,70 @@ public class Appointment{
 	}
 }
 ```
-The junit tests for this class methodically test each accessor and mutator.  Notice the use of `@Before` to identify a method that sets up the test objects for each test.  `Assert` is used to confirm that the values match the expected values.  The code shown below contains enough tests  for an example but does not represent exhaustive testing for the class.
+The junit tests for this class methodically test each accessor and mutator.  Notice the use of `@BeforeEach` to identify a method that sets up the test objects for each test. The static method `assertEquals` is used to confirm that the values match the expected values.  The code shown below contains enough tests  for an example but does not represent exhaustive testing for the class.
+
+
 
 ```java
-import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
-public class AppointmentTest{
-  private  Appointment appointment1;
-  private Appointment appointment2;
-  private Schedule schedule;
+public class AppointmentTest {
 
-@Before public void startOver(){
-    appointment1 = new Appointment();
-    appointment2 = new Appointment("John Smith", "Monday");
-    schedule = new Schedule();
-  }
+    private Appointment appointment;
 
-@Test public void constructorA(){
-     assertNotNull(appointment1);
-  }
- @Test public void constructorB(){
-     assertNotNull(appointment2);
-  }
- @Test public void constructorC(){
-     appointment2 = null;
-     appointment2 = new Appointment(null, null);
-  }
-  @Test public void gettersA(){
-     assertEquals(appointment1.getName(), "none");
-     assertEquals(appointment1.getDay(), "none");
-  }
- @Test public void gettersB(){
-     assertEquals(appointment2.getName(), "John Smith");
-     assertEquals(appointment2.getDay(), "Monday");
-  }
-  @Test public void setters1(){
-     appointment1.setName("Baron Snoopy");
-     assertEquals(appointment1.getName(), "Baron Snoopy");
-  }
- @Test public void setters2(){
-     appointment1.setDay("Tuesday");
-     assertEquals(appointment1.getDay(), "Tuesday");
-  }
- @Test public void setters3(){
-     appointment1.setName(null);
-     assertNull(appointment1.getName());
-}  
+    @BeforeEach
+    public void setup() {
+        appointment = new Appointment();
+    }
+
+    @Test
+    @DisplayName("Test default constructor")
+    public void testDefaultConstructor() {
+        Assertions.assertEquals("none", appointment.getName());
+        Assertions.assertEquals("none", appointment.getDay());
+    }
+
+    @Test
+    @DisplayName("Test parameterized constructor")
+    public void testParameterizedConstructor() {
+        Appointment appointment = new Appointment("John Doe", "Monday");
+        Assertions.assertEquals("John Doe", appointment.getName());
+        Assertions.assertEquals("Monday", appointment.getDay());
+    }
+
+    @Test
+    @DisplayName("Test getName")
+    public void testGetName() {
+        appointment.setName("John Doe");
+        Assertions.assertEquals("John Doe", appointment.getName());
+    }
+
+    @Test
+    @DisplayName("Test setName")
+    public void testSetName() {
+        appointment.setName("John Doe");
+        Assertions.assertEquals("John Doe", appointment.getName());
+    }
+
+    @Test
+    @DisplayName("Test getDay")
+    public void testGetDay() {
+        appointment.setDay("Monday");
+        Assertions.assertEquals("Monday", appointment.getDay());
+    }
+
+    @Test
+    @DisplayName("Test setDay")
+    public void testSetDay() {
+        appointment.setDay("Monday");
+        Assertions.assertEquals("Monday", appointment.getDay());
+    }
 }
 ```
+
+These tests cover various scenarios such as testing the default constructor, the parameterized constructor, the getter and setter methods for `name` and `day`, and verifying the expected values.
+
 

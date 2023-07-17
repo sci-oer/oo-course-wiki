@@ -10,7 +10,7 @@ dateCreated: 2022-08-17T18:15:16.850Z
 
 # Instance Variables
 * Recall that **instance** is equivalent to **object**
-* An instance variable is a variable that exists in exactly one object.
+* An instance variable holds a value that exists in exactly one object.
 
 Instance variables are one type of *attribute* that a class can have. They are variables that are local to the definition of the **class**, as opposed to being local to a method. Any instance method that is defined in the class can automatically use the instance variables for that class.
 

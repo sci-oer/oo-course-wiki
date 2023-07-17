@@ -80,6 +80,7 @@ A stream is an expensive resource computationally. There is a limit on the numbe
     
 #### Reader and Writer classes
 Readers and Writers deal with textual input.  The classes are designed to work with char type data.  There are many subclasses of Readers and Writers. The most common ones you will likely use include:
+  - [java.nio.files.Files](http://localhost:8000/docs/api/java.base/java/nio/files/Files.html)
   - [java.io.BufferedReader](http://localhost:8000/docs/api/java.base/java/io/BufferedReader.html)
   - [java.io.InputStreamReader](http://localhost:8000/docs/api/java.base/java/io/InputStreamReader.html)
   - [java.io.BufferedWriter](http://localhost:8000/docs/api/java.base/java/io/BufferedWriter.html)
@@ -88,6 +89,7 @@ Readers and Writers deal with textual input.  The classes are designed to work w
 #### DataInput and DataOutput classes
 Input and Output stream classes are designed to work with binary data.  Again, there are many possible classes in the `java.io` package.  Some that you will likely use include:
 
+- [java.nio.files.Files](http://localhost:8000/docs/api/java.base/java/nio/files/Files.html)
 - [java.io.DataOutputStream](http://localhost:8000/docs/api/java.base/java/io/DataOutputStream.html)
 - [java.io.DataInputStream](http://localhost:8000/docs/api/java.base/java/io/DataInputStream.html)
 - [java.io.ObjectOutputStream](http://localhost:8000/docs/api/java.base/java/io/ObjectOutputStream.html)

@@ -12,10 +12,7 @@ dateCreated: 2022-08-25T23:39:17.903Z
 
 Git is a version control system that is used widely in the computing industry.  It allows multiple developers to work in the same codebase without causing problems for each other by editing the same part of the code at the same time.  
 
-You are expected to learn to use git for this course and to use it for managing and submitting all of your assignments.    You will not have to learn to use git in a multi-programmer project for this course.
-
 Git can be thought of as cloud storage that is specialized for working with programming projects.  It is much more than just that, but the cloud storage mental model is a good way to start out with git.
-
 
 It takes much practice to become an expert git user, but it is easy to use git effectively with only a few commands.   The commands you will likely need most often are:
 

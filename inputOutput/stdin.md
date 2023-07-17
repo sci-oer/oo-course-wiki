@@ -13,7 +13,7 @@ dateCreated: 2022-08-17T18:14:30.298Z
 
 In order to use keyboard input in a Java program, the keyboard must be attached to a [stream](/inputOutput/streams) and the stream used to read the input.
 
-Java simplifies this task for the programmer by including built in classes that provide all the capabilities needed.  
+Java simplifies this task for the programmer by including built in classes that provide all the capabilities needed to get input from the user.  
 
 1. The first built-in class is a [static member](/ooConcepts/classMembers) of the `System` class called `in`.   It is used in a java program with `System.in` and, by default, it references the keyboard as its input device. It is the java equivalent of `stdin` in a C program. `System.in`  is of the type `java.io.InputStream`.
 
@@ -38,7 +38,9 @@ System.out.println("What is your favourite colour?");
 userAnswer = keyboardScanner.nextLine();
 System.out.println("Your answer was " + userAnswer);
 ```
-The nextLine method of the Scanner class returns all the text up to the next 'newline' character (`\n`) but does not include the newline character in the returned String.
+The nextLine method of the Scanner class returns all the text up to the next 'newline' character (`\n`) but does not include the newline character in the returned String.  The nextLine method does advance the Scanner currentPosition pointer to the character immediately after the newline character.
+
+Other methods of the `Scanner` class such as `nextInt()` or `nextDouble()` do not scan past the newline character in the stream so users of those methods will need to move past the newline on their own.
 
 
 

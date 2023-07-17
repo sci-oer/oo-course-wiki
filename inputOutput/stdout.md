@@ -11,9 +11,9 @@ dateCreated: 2022-08-17T18:14:33.067Z
 
 # Terminal Output to Users
 
-Providing output to the user is also accomplished via a stream, but the Java language provides built-in classes that simplify the process. 
+Providing output to the user is accomplished via a stream, but the programmer doesn't need to interact directly with the stream as the Java language provides built-in classes that simplify the process. 
 
-The most common class used is a static member of the `System` class called `out`.  You have already used `System.out` many times in your Java programs.
+The most common class used is a static member of the `System` class called `out`.  You likely have already used `System.out` many times in your Java programs.
 
 `System.out` is an instance of the [PrintStream](http://localhost:8000/docs/api/java.base/java/io/PrintStream.html) class.   When a Java program is run, System.out is attached to the default output device for the system (usually the screen) and opened. It is closed automatically when your program exits.  
 

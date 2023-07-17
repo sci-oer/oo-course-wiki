@@ -10,7 +10,7 @@ dateCreated: 2022-08-17T18:15:21.895Z
 
 # Aggregate Objects
 
-The concept of **aggregation** is as important as abstraction in the skillful use of Object-Oriented programming. Aggregation is effected by composing classes by using other classes as composite parts. In the same way that a motor vehicle is an aggregate of doors, windows, motor, tires, seats, etc, a class can be an aggregate of other classes.
+The concept of **aggregation** is as important as [abstraction](/ooDesign/polymorphism) in the skillful use of Object-Oriented programming. Aggregation is effected by composing classes by using other classes as composite parts. In the same way that a motor vehicle is an aggregate of doors, windows, motor, tires, seats, etc, a class can be an aggregate of other classes.
 
 Creating classes as aggregations permits the programmer to take advantage of previously tested functionality without doing any additional coding.
 

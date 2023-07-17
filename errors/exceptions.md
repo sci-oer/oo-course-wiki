@@ -29,11 +29,11 @@ In Java, the class [Exception](http://localhost:8000/docs/api/java.base/java/lan
 
 **Exception Handling** in Java is a powerful mechanism to handle the runtime errors so that normal flow of the application can be maintained. Exceptions are handled through the use of `try`, `catch` and sometimes `finally` blocks to wrap the code that may produce exceptions and define mechanisms for handling the unexpected. 
 
-Java will not let you compile code that can give exceptions that you have not handled, either through `try/catch` or throwing the exception as part of the method definition. 
+Java will not let you compile code that can result in exceptions that you have not handled, either through `try/catch` or throwing the exception as part of the method definition. 
 
 ### Try/Catch
 
-You have likely already used exception handling as you learned about the different mechanisms for input and output in Java. The process of opening a file and reading the contents requires that exceptions are handled.
+You may have already used exception handling as you learned about the different mechanisms for input and output in Java. The process of opening a file and reading the contents requires that exceptions are handled.
 
 ```
     Path path = FileSystems.getDefault().getPath(location, fileName);

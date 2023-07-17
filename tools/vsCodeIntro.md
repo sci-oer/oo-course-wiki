@@ -35,7 +35,7 @@ It also displayes quick info, provided by the language service, for each method 
 
 ![method info popup in Virtual Studio Code showing the javadocs for the println method.](/images/infovscode.png)
 
-## Running Code With VS Code
+## Compiling Code With VS Code
 
 
 After you have  opened your project code:
@@ -44,6 +44,6 @@ After you have  opened your project code:
  
 **Step 2 -** If your project is a gradle based project (all the examples and projects for this course use gradle) Run`./gradle build` on the command line.
 
-**Step 3 -** You code will be run and you should see your output form in the terminal window below.
+**Step 3 -** You code will be compiled and you should see your output form in the terminal window below.
 
 

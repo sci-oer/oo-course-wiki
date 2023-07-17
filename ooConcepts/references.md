@@ -11,7 +11,7 @@ dateCreated: 2022-08-17T18:15:14.396Z
 
 # References (Pointers)
 
-Often it is stated that Java is easier than C because it doesn't use pointers. In fact, Java uses pointers for everything, but it seems easier than pointers with C because memory management is handled automatically with no intervention from the programmer.
+Often it is stated that Java is easier than C because it doesn't use pointers. In fact, Java uses pointers for everything, but it seems easier than C pointers because memory management is handled automatically with no intervention from the programmer.
 
 When a variable of a class type is declared, that variable is, in fact, a pointer. Java programmers use the word *reference*.   
 
@@ -57,5 +57,5 @@ Two reference variables are created and assigned to two different instances (eac
 
 Then one of the reference variables is reset to point at the same instance as the other variable. Now two references point to the same part of memory. One of those references is used to send a message to the instance to change data values via the `setName` method.  This changes the data values for the instance.  Both references are pointing to the same instance, so now the call to `fido.getName()` will return the word *pebbles*.
 
-If you've programmed in C or C++ you have likely noticed that this practice appears to generate lots of memory leaks because the memory isn't deallocated. Java handles all the memory management for you. When there are zero references pointing to an instance, that instance is scheduled for garbage collection and will be freed and placed back on the heap for use.
+If you've programmed in C or C++ you have likely noticed that code like this would generate memory leaks because the memory isn't deallocated. Java handles all the memory management for you. When there are zero references pointing to an instance, that instance is automatically scheduled for garbage collection and the memory it used will be freed and placed back on the heap for use.
 

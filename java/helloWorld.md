@@ -44,13 +44,14 @@ public class HelloWorld{
 				message = theMessage;    
     }
 
-	  public void sayHello(){
-       System.out.println(message);
+    @Override
+	public String toString(){
+       return message;
     }
 
 }
 ````
-The example above [defines a class](/ooConcepts/classes) that has a [instance variable](/ooConcepts/variables) that contains the message, a constructor for establishing the message value, and an [instance method](/ooConcepts/methods) for printing the message. What it does not contain is that [main method](/java/mainMethod) that was previously mentioned.
+The example above [defines a class](/ooConcepts/classes) that has a [instance variable](/ooConcepts/variables) that contains the message, a constructor for establishing the message value, and an [instance method](/ooConcepts/methods) for returning the message to the calling program. The instance method is named `toString()` and is a method that every class should have.  What this class does not contain is that [main method](/java/mainMethod) that was previously mentioned.
 
 That main method could go in the same class definition, or in any other class definition. It would look something like this:
 
@@ -58,12 +59,14 @@ That main method could go in the same class definition, or in any other class de
 public static void main(String[] args) {
   HelloWorld theInstance;
   theInstance = new HelloWorld("hi there world");
-  theInstance.sayHello();
+  System.out.println(theInstance.toString());
  }
 ````
 
-In the main method example  you can see the declaration of a variable of type HelloWorld followed by the assignment of an instance of that type of object to the variable. Finally the sayHello method of that instance is called. What do you think will be printed?
+In the main method example  you can see the declaration of a variable of type HelloWorld followed by the assignment of an instance of that type of object to the variable. Finally the toString method of that instance is called and sent as a parameter to the `println` method. What do you think will be printed?
 
 In general for object-oriented programs written in Java, the main method should not be doing much of the computing or work of the program. All the main method does is set up the environment and start the execution.
+
+Also, the input/output for any object-oriented program should occur in a single class.  All other classes should pass parameters and return values to that class for input/output.
 
 

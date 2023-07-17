@@ -97,7 +97,7 @@ Because the values of **final** constants are fixed, they must be assigned at de
 
 Static constants may be assigned `public` access because they cannot be changed. 
 
- `public static final int BIRTH_YEAR = 1954;`
+ `public static final int BIRTH_YEAR = 1984;`
 
 
 

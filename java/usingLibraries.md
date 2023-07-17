@@ -15,7 +15,7 @@ dateCreated: 2022-05-02T19:48:03.771Z
 * No one has the resources(time,money) to build and test and debug complex applications from scratch. 
 
 A competent Java programmer must be able to work with the libraries.
-- *You should:*
+- *You should*
 	- know some important classes by name;
   - know how to find out about other classes.
 - *Need to know the programming interface, not the implementation.*
@@ -39,15 +39,14 @@ The import statement is how we take advantage of the many libraries available.
 - Single classes may be imported:
 `import java.util.ArrayList;
 `
-- Whole packages can be imported:
-`import java.util.*;`
+- Whole packages can be imported `import java.util.*;` but that is not considered to be best practice as it obscures the information about what classes are used by the importing code.
 
 
 The `import` statement tells javac which classes and packages the program we are writing relies on.
 `import java.util.Date;`
 `import java.util.Random;`
 
-You can just use the fully qualified names directly in the code if you don’t use an import statement.
+You can use the fully qualified names directly in the code if you don’t use an import statement.
 
 i.e. `java.util.Random myVar = new java.util.Random();`
 
@@ -67,10 +66,6 @@ i.e. `java.util.Random myVar = new java.util.Random();`
 
 Import is a directive to the compiler about what class definitions you are using in your program. It makes your code more readable because it shortens the names you type.
 
-Classpath specifies a location on a hard drive for the compiler and interpreter to go look for libraries and compiled files. Classpath is not specified in the soure code.
-
-You need both.
-
 ### Packages
 Packages are used to group classes that have similar functionality or context. Packages help us keep the code base organized and make it easier to avoid name collisions by having two classes with identical names.
 For example, how many people have probably written a `Tree` class? Possibly even in the same program.  By using package names we can keep the various `Tree` classes organized
@@ -81,6 +76,10 @@ For example, how many people have probably written a `Tree` class? Possibly even
 Packages are realized by putting code in subfolders
 The source code needs to have a package statement that matches the subfolder hierarchy.
 `import companyname.dstructures.Tree;`
+
+The code for this example would be in a subfolder of the `/src/main/java` folder.  The subfolder would be called `companyname/dstructures`.  The source file would be called `Tree.java`.
+
+
 
 
 

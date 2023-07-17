@@ -24,6 +24,21 @@ This OER resource of information and activities will help you learn how to progr
    - E-Text: [OO vs Procedural](/ooConcepts/proceduralOOCompare)
    - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/proceduralOOCompare) 
 
+##### In-Person Tutorial Topics: Week 1
+- git
+   - E-Text: [Using Git](/tools/Git/)
+   - Mini Lecture:[Using Git for Java Programming](http://localhost:8000/lectures/tools/Git/)
+- writing a main method
+   - E-Text: [The Main Method](/java/mainMethod)
+   - Tutorial: [Main Method Practice](http://localhost:8888/lab/tree/tutorials/java/mainMethod.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/java/mainMethod) 
+- hello world
+   - E-Text: [Hello World](/java/helloWorld)
+   - Mini Lecture:[Intro to Java](http://localhost:8000/lectures/java/JavaIntro/)
+   - Tutorial: [Creating Hello World](http://localhost:8888/lab/tree/tutorials/java/helloWorld.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/java/helloWorld)  
+
+
 ##### Sept. 12
  - *Classes, Objects and Instances* 
    - E-Text: [Classes](/ooConcepts/classes)
@@ -49,6 +64,17 @@ This OER resource of information and activities will help you learn how to progr
  - E-Text: [Using System.out](/inputOutput/stdout)
  - Tutorial: [Formatting Output](http://localhost:8888/lab/tree/tutorials/inputOutput/userOutput.ipynb) 
  - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/stdout)
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 2
+- Using VS Code
+ - E-Text: [Using VS Code](/tools/vsCodeIntro)
+- Using the Input Stream
+   - E-Text: [Input Stream and Scanner](/inputOutput/stdin)
+   - Tutorial: [Getting Keyboard Input](http://localhost:8888/lab/tree/tutorials/inputOutput/userInput.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/stdin)  
+- Access Controls
+  - E-Text: [Access Controls](/java/AccessControls)
 
 ##### Sept. 19
  - *Methods*
@@ -72,6 +98,18 @@ This OER resource of information and activities will help you learn how to progr
  - *Constructors*
   - E-Text: [Creating objects](/ooDesign/constructors)
   - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/constructors)
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 3
+- Checkstyle
+ - E-Text: [Using Checkstyle](/tools/checkstyle)
+- Using Code Libraries
+ - E-Text: [Code Libraries](/java/usingLibraries)
+- ArrayList
+	- E-Text: [Collections](/dataStructures/collections)
+ - Mini Lecture:[Using ArrayList](http://localhost:8000/lectures/dataStructures/ArrayList/)
+ - Tutorial: [Using ArrayList](http://localhost:8888/lab/tree/tutorials/dataStructures/ArrayList.ipynb) 
+
 ##### Sept. 26
 - *Instance Variables*
    - E-Text: [Instance Variables](/ooConcepts/variables)
@@ -90,31 +128,235 @@ This OER resource of information and activities will help you learn how to progr
    - Tutorial: [Class Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticMethods.ipynb) 
    - Tutorial: [Class Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticVariables.ipynb) 
    - [Self Study Exercises and Practice Problems](/practiceActivities/ooConcepts/classMembers) 
+- *Quiz this day*
+
 #### Q2
 
+##### In-Person Tutorial Topics: Week 4
+
+- [Junit](/tools/junit)
+
 #####  Oct. 3
+- *Single Responsibility Principle*
+   - E-Text: [Single Responsibility Principle](/ooDesign/singleResponsibility)
+   - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/singleResponsibility) 
+- *Test Cases*
+ - E-Text: [Creating Test Cases](/testing/testCases)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/testing/testCases) 
+
+
 #####  Oct. 5
+- *Testing*
+   - E-Text: [Intro to Testing](/testing/testing)
+   - [Self Study Exercises and Practice Problems](/practiceActivities/testing/testing) 
+
+- *Unit Testing*
+ - E-Text: [Unit Testing](/testing/unitTesting)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/testing/unitTesting) 
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 5
+
+*No In-person tutorials this week due to the Thanksgiving break*
+
 #####  Oct. 12
+- *Collections and Data Structures*
+
+ - E-Text: [What are Collections?](/dataStructures/collectionsDataStructures)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/dataStructures/collectionsDataStructures)
+
+- *Collections Framework*
+
+ - E-Text: [The Collections Framework](/dataStructures/collectionsFramework)
+ - E-Text: [Using Java Collections](/dataStructures/collections)
+ - Mini Lecture:[Java Collections Framework](http://localhost:8000/lectures/dataStructures/CollectionsFramework)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/dataStructures/collectionsFramework)
+
+
+- *HashMap*
+
+ - Mini Lecture:[Using HashMap](http://localhost:8000/lectures/dataStructures/HashMap/)
+  - Tutorial: [Using HashMap](http://localhost:8888/lab/tree/tutorials/dataStructures/HashMap.ipynb)
+- [Collections Self Study](/practiceActivities/dataStructures/collections)
+
+
+- *HashSet*
+
+  - Tutorial: [Using HashSet](http://localhost:8888/lab/tree/tutorials/dataStructures/HashSet.ipynb)
+
+##### In-Person Tutorial Topics: Week 6
+
+- Try-catch
+ - Tutorial: [Try Catch](http://localhost:8888/lab/tree/tutorials/errors/tryCatch.ipynb) 
+ - Tutorial: [Try With Resources](http://localhost:8888/lab/tree/tutorials/errors/tryWithResources.ipynb) 
+- Binary Files
+ - E-Text: [Binary Files](/inputOutput/binaryFiles)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/binaryFiles)  
+
 #####  Oct. 17
+
+- *Streams*
+ - E-Text: [Stream Based I/O](/inputOutput/streams)
+ - Mini Lecture:[Stream Based Input Output ](http://localhost:8000/lectures/inputOutput/StreamBasedIO/)
+
+- *Text Files*
+
+ - E-Text: [Using Text Files](/inputOutput/TextFiles/)
+ - Mini Lecture:[Reading and Writing Text files](http://localhost:8000/lectures/inputOutput/TextFiles/) 
+ - Tutorial: [Reading Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedReader.ipynb) 
+ - Tutorial: [Writing Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedWriter.ipynb) 
+ - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/textFiles) 
+
+
 #####  Oct. 19
+
+- *Serialization*
+ - E-Text: [Serialization](/inputOutput/serialization)
+ - Tutorial: [Serialization Demo](http://localhost:8888/lab/tree/tutorials/inputOutput/serialization.ipynb) 
+ - [Self Study Exercises and Practice Problems](/practiceActivities/inputOutput/serialization) 
+
+ - *Handling Multiple Exceptions*
+   - E-Text: [Exception Handling](/errors/exceptions)
+   - Mini Lecture:[Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
+   - Tutorial: [Handling Multiple Exceptions](http://localhost:8888/lab/tree/tutorials/errors/multipleExceptions.ipynb) 
+   - [Self Study Exercises and Practice Problems](/practiceActivities/errors/exceptions) 
+- *Quiz this day*
 
 #### Q3
 
+##### In-Person Tutorial Topics: Week 7
+
+- Programmer Written Exceptions
+  - Tutorial: [Programmer Defined Exceptions](http://localhost:8888/lab/tree/tutorials/errors/customExceptions.ipynb) 
+
+
 #####  Oct. 24
+
+- *Polymorphism*
+ - E-Text: [What is Polymorphism](/ooDesign/polymorphism)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/polymorphism) 
+
+- *Using Polymorphism*
+ - E-Text: [Using Polymorphism](/ooDesign/usingPolymorphism)
+ - Tutorial: [Programming with Polymorphism](http://localhost:8888/lab/tree/tutorials/ooDesign/usingPolymorphism.ipynb) 
+ - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/usingPolymorphism) 
+
 #####  Oct. 26
+- *Polymorphism using Interfaces*
+ - E-Text: [Polymorphism Using Interfaces](/ooDesign/interfaces)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/interfaces) 
+- *Quiz this day*
+
+
+##### In-Person Tutorial Topics: Week 8
+
+- Customizing Gradle
+  - [Gradle](/tools/gradle)
+- Writing and Building Javadocs
+  - [JavaDocs](/tools/javadocs)
+
 #####  Oct. 31
+
+- *Polymorphism using Inheritance*
+
+   - E-Text: [Polymorphism using Inheritance](/ooDesign/inheritance)
+   - Tutorial: [Creating Subclasses](http://localhost:8888/lab/tree/tutorials/ooDesign/creatingSubclasses.ipynb)
+   - Tutorial: [Abstract Classes](http://localhost:8888/lab/tree/tutorials/ooDesign/abstractClasses.ipynb) 
+  - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/inheritance) 
+
 #####  Nov. 2
+- *Events*
+ - E-Text: [Event Driven Programming](/eventDrivenProgramming/events)
+- [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/events) 
+
+- *Event Handlers*
+ - E-Text: [Handling Events](/eventDrivenProgramming/eventHandlers)
+- [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/eventHandlers)  
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 9
+
+- Working with Graphical User Interfaces
+
 #####  Nov. 7
+- *Headless Computing*
+ - E-Text: [What is Headless Computing?](/inputOutput/headlessComputing)
+
+- *GUI*
+ - E-Text: [Graphical User Interfaces](/eventDrivenProgramming/gui)
+ - Mini Lecture:[Creating a basic GUI](http://localhost:8000/lectures/eventDrivenProgramming/GUIConstruction/)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/eventDrivenProgramming/gui)
+
 #####  Nov. 9
+
+- *Lambda Listeners*
+ - E-Text: [Event Listeners with Lambda](/functionalProgramming/lambdaListeners)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/functionalProgramming/lambdaListeners)
+- *User Interface Design*
+ - E-Text: [User Interface Design](/eventDrivenProgramming/uxDesignBasics)
+- *Quiz this day*
 
 #### Q4
 
+##### In-Person Tutorial Topics: Week 10
+
+- Integrated Debugging
+
 #####  Nov. 14
+
+- *Errors and Bugs*
+ - E-Text: [Errors and Bugs](/errors/errorsVsBugs)
+
+- *Debugging*
+ - E-Text: [Debugging Strategies](/errors/debugging)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/errors/debugging)  
+
 #####  Nov. 16
+
+- *Refactoring*
+ - E-Text: [Refactoring](/ooDesign/refactoring)
+- *Encapsulation*
+ - E-Text: [Encapsulation](/ooDesign/encapsulation)
+ - Mini Lecture:[Encapsulation](http://localhost:8000/lectures/ooDesign/Encapsulation/)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/encapsulation) 
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 11
+
+- TBA
+
 #####  Nov. 21
+
+- *Avoiding Duplicate Code*
+ - E-Text: [Avoid Duplicate Code](/ooDesign/duplicateCode)
+- *Cohesion and Coupling*
+ - E-Text: [Cohesion and Coupling](/ooDesign/cohesionCoupling)
+ - Mini Lecture:[Cohesion and Coupling](/ooDesign/cohesionCoupling)http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
+ - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/cohesionCoupling)  
+
 #####  Nov. 23
+
+- *Intro to Functional Programming*
+ - E-Text: [Functional Programming](/functionalProgramming/functionalProgramming)
+- *Functional Interfaces in Java*
+ - E-Text: [Functional Interfaces](/functionalProgramming/functionalInterfaces)
+- *Functional Collection Processing*
+ - E-Text: [Collection Processing](/functionalProgramming/functionalCollectionProcessing)
+ - Tutorial: [collection processing](http://localhost:8888/lab/tree/tutorials/functionalProgramming/collectionProcessing.ipynb)
+- *Quiz this day*
+
+##### In-Person Tutorial Topics: Week 12
+
+*No in-person tutorials this week*
+
 #####  Nov. 28
+
+- *Generics*
+  - E-Text:[Introduction to Generic Classes](/generics/introToGenerics)
+
 #####  Nov. 30
+
+- Exam Review
 
 
 #### Advanced Topics

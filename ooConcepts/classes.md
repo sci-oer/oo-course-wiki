@@ -17,7 +17,7 @@ dateCreated: 2022-05-02T19:48:14.927Z
 
 The *class* is the core component of an Object Oriented program.  A class represents a concept or element of the domain (e.g. "car", "pet"). The *class definition* is the code written that describes the capabilities of the class. 
 
-A *class definition* consists of source code that provides variables to keep track of the characteristics of the element (e.g. "name", "breed", "age") as well as the definition of functions (called *methods) that are used to change the state of the element.  A class definition(e.g. Pet) is the template used when creating variables that are of that type (e.g. myPetCharlie).
+A *class definition* consists of source code that provides variables to keep track of the characteristics of the element (e.g. "name", "breed", "age") as well as the definition of functions (called *methods*) that are used to change the state of the element.  A class definition(e.g. Pet) is the template used when creating variables that are of that type (e.g. myPetCharlie).
 
 More formally, a class is a programmer-defined type. It defines both state and behavior, where the behavior of the class is defined with methods and  he characteristics are defined through attributes (often called *fields*, *member variables*, or *instance variables*). 
 
