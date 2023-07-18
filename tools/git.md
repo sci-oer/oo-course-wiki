@@ -32,3 +32,21 @@ It takes much practice to become an expert git user, but it is easy to use git e
 - git rm
    - removes something from the git store (not from the drive)
 
+The diagram below shows a common workflow for a person using more than one computer to work on a coding project.
+
+```mermaid
+sequenceDiagram
+    participant Laptop
+    participant Desktop
+    participant Server
+
+    Server->>Laptop: Clone Repository
+    Server->>Desktop: Clone Repository
+    Laptop->>Laptop: Make Changes
+    Laptop->>Laptop: Commit Changes Locally
+    Laptop->>Server: Push Changes
+    Server->>Desktop: Pull Changes
+    Desktop->>Desktop: Make More Changes
+    Desktop->>Desktop: Commit Changes Locally
+    Desktop->>Server: Push Changes
+```

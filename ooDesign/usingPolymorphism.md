@@ -11,7 +11,7 @@ dateCreated: 2022-08-17T18:15:44.970Z
 
 # Taking advantage of Polymorphism
 
-A key advantage of polymorphism is the ability to create classes that operate on an abstraction. Consider the example shown in the class diagram.
+A key advantage of polymorphism is the ability to create classes that operate on an abstraction so that the classes can be reused for many types. Consider the example shown in the class diagram.
 
 ```mermaid
 classDiagram

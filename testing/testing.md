@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-08-17T18:16:12.077Z
 ---
 
-# Testing and Debugging
+# Testing
 
 Errors that prevent software from compiling correctly are not bugs. They are simply syntax errors that must be fixed.
 
@@ -47,54 +47,6 @@ Errors that prevent software from compiling correctly are not bugs. They are sim
 - is a type of *black box testing*
 
 
-## Debugging Techniques
-
-  Frequently programmers will find themselves debugging code they did not write so one of the first debugging techniques a programmer should learn is the ability to read someone else's code.
-
-Once you know there is a bug, the next step is to find it.  The general method of finding a bug is to inspect the source code and the computation results to locate the place in the code that is producing the incorrect results.  That inspection can be accomplished using a variety of techniques.
-
-###  Manual walkthroughs
-
-A manual walkthrough of the code does not use the computer.  Instead the programmer or a pair of programmers simulates the execution of the code by tracing through the code and doing any necessary calculations by hand.
-
-
-**Pencil-paper walkthrough**
-- An underused, low-tech approach.   
-- Step away from the computer
-- *Run* the program by hand
-- Create a list of all the variables and write down their values as you step through the program
-- Make a note of the expected value and the actual value as you go
-- Tester must be very careful to do all calculations as written in the code, not as they assume the calculations will be done.
-    
-**Verbal walkthrough**
-- Explain to someone else what the code is doing step by step
-  - Point out each section of the code as you talk
-  - The other person might spot the error as you talk
-  - You might spot the error as you explain it.
-- More formal approaches to this are included in many agile software development processes.
-  
-### Print statements
-- Insert print statements in the code to disclose the values of intermediate computations
-- A common techqique especially for novice programmers
-- Only effective if the print statements are strategically placed.
-- Can be hard to read the output as it gets longer
-- Turning  the debugging output off and on requires planning.
-  - commenting/uncommenting
-  - a flag (`if DEBUG print "debugging output"`)
-  - a specialized method 
-  - a logger class
-
-###  Debuggers
-- Debuggers are both language- and environment-specific.
-  - Most IDEs have an integrated debugger
-- use the debugger to set breakpoints in the code
-- Run the code up to the breakpoint
-- Can step execution one line at a time
-- Can inspect the call stack
-- Object  and variable state is inspectable
-
-> Learn to use a debugger
-{.is-info}
 
 
 

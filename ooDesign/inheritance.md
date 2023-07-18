@@ -14,9 +14,9 @@ dateCreated: 2022-05-02T19:49:11.209Z
 ## Code Reuse
 - **Code reuse** is one of the main advantages of OO programming. One mechanism for reusing code is to allow classes to automatically use the code written for another class via the mechanism of *inheritance*  
 
-- Classes can be organized in a hierarchicalrelationship which automatically gives classes lower in the hierarch all of the methods of the class higher in the tree. this is accomplished without any duplication of code.
+- Classes can be organized in a hierarchical relationship which automatically gives classes lower in the hierarchy access to all of the methods of the class higher in the tree. This is accomplished without any duplication of code.
 
-- The subclass also automatically has **all of the instance and class variables** but, because those should be private, the subclass accesses those variables through getters and setters.
+- The subclass also automatically has **all of the instance and class variables** but, because those variables should be private, the subclass accesses those variables through getters and setters. This is one of the reasons why getters and setters are often `package private` or `protected` instead of `private`.
 
 In the example shown below the class `Mammal` is a subclass of the class `Animal` and the class `Zebra` is a subclass of the class `Mammal`.  Because `Zebra` is also a `Mammal` and is also an `Animal`, any instance of the `Zebra` class will have methods called `getFoodType` and `getMovementMethod` as well as `getNumBabies`.  Of course `Zebra` also has the `getVariety` method that is defined in the `Zebra` class.    The diagram below is known as a **Class Diagram**.  
 
@@ -77,7 +77,38 @@ classDiagram
 
 ## Creating A Subclass
 
-The process of creating a subclass is fairly simple.  Suppose, for example that you needed a class that could return the middle value of a list.   Rather than writing your own list class, you could subclass one of the built in classes (`ArrayList` or `LinkedList` for example).  This class would be declared as shown below.
+The process of creating a subclass is fairly simple.  
+The java `Integer` class cannot be subclassed because it is final, but the code below shows an imaginary subclass of the `Integer` called `RomanInteger` which provides conversion to and from roman numerals to integers. 
+
+The `extends` keyword tells us that the class we are defining is a subclass.  The `RomanInteger` class would still have all of the same methods found in the java `Integer` class as well as the additional constructor and method shown in this code.
+
+```java
+public class RomanInteger extends Integer {
+    public RomanInteger(int value) {
+        super(value);
+    }
+
+    public RomanInteger(String romanNumeral) {
+            // Implementation of converting Roman numeral to integer goes here
+        // You can use your preferred algorithm to implement this conversion
+        // and send the integer value to the super constructor.
+        super(result);
+    }
+
+    public String toRoman() {
+
+        // Implementation of converting integer to Roman numeral goes here
+        // You can use your preferred algorithm to implement this conversion
+        // and return the corresponding Roman numeral as a string.
+
+        return(romanNumeralString);
+    }
+
+}
+```
+
+
+Or,for example, suppose that you needed a class that could return the middle value of a list.   Rather than writing your own list class, you could subclass one of the built in classes (`ArrayList` or `LinkedList` for example).  This class would be declared as shown below.
 
 ```java
 public class MiddleList<E> extends java.util.ArrayList {
@@ -111,7 +142,7 @@ myList.add("bird");
 String middleElement = myList.getMiddleElement()
 System.out.println(middleElement);
 ```
-The code shown above will print the word `cat`.
+The code shown above will print the word `cat`.  Because the java `ArrayList<>` class is not `final` the above code will work.
 
 
 ## Method Overriding
@@ -120,7 +151,7 @@ We often want the behaviour of a subclass to be slightly different than the beha
 Lets suppose that we want our new `MiddleList` class to insert new elements at the beginning of the list rather than append to the end of the list.  Appending is the default behaviour for `ArrayList`.   We can accomplish this by **overriding** the `add()` method.
 
 Note that when you override a method the parameters and the return type must be identical to the method in the superclass.  A quick look at the [javadocs for `ArrayList`](http://localhost:8000/docs/api/java.base/java/util/ArrayList.html) shows that the signature for `add` is as follows: `boolean 	add​(E e)`.
-We can take advantage of the `ArrayList` method that inserts an element at a specified location  (`void 	add​(int index, E element)`) to accomplish our goal however we'll need to do something about a return value because the add at location method is void and we're writing a method that must return a boolean.
+We can take advantage of the `ArrayList` method that inserts an element at a specified location  (`void 	add(int index, E element)`) to accomplish our goal however we'll need to do something about a return value because the add at location method is void and we're writing a method that must return a boolean.
 
 
 ```java

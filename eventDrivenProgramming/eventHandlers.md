@@ -67,7 +67,7 @@ The code to assign such a listener to the button would change only slightly as i
 		endButton.addActionListener(new EndProgramListener(this)); //reference to program -->this
 ```
 
-The last several versions of Java have provided a streamlined mechanism for assigning event handlers to components through the use of **Lambda expressions** and **Functional Interfaces**.   A complete knowledge of those terms is unnecessary to take advantage of the technique.
+The past several versions of Java have provided a streamlined mechanism for assigning event handlers to components through the use of **Lambda expressions** and **Functional Interfaces**.   A complete knowledge of those terms is unnecessary to take advantage of the technique.
 
 A lambda expression makes use of an operator `->` that tells Java to take a specific action if an event occurs. 
 The syntax shown below accomplishes the same goals as the earlier example, but there is no need for a specific ActionListener class type.  Instead the `program.end()` method is called by the lambda expression.

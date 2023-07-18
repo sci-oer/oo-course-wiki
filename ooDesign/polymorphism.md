@@ -44,7 +44,7 @@ A UML diagram of the inventory management system is shown below.
 
 Java permits polymorphism through two main avenues: the use of [Interfaces](/ooDesign/interfaces) (not GUIs), and the use of [Inheritance](/ooDesign/inheritance).  
 
-Polymorphic are shown on the diagram by a line ending with a triangle arrowhead. Interfaces are shown in the diagram with dotted borders and dotted connecting lines.  Inheritance is shown when classes are connected with a solid line.   
+Polymorphic relationships are shown on the diagram by a line ending with a triangle arrowhead. Interfaces are shown in the diagram with dotted borders and dotted connecting lines.  Inheritance is shown when classes are connected with a solid line.   
 
 
 

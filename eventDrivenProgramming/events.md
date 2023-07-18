@@ -41,4 +41,90 @@ Creating a program to use an event-driven design requires the programmer to shif
 3. Event driven programs cannot be written linearly
 
 
+#### Event driven example
 
+Event driven programs are often graphical, but they don't have to be. Any sort of action can trigger an event. The code below is an example of an event driven program.  It accepts input on the command line and generates an event every time the user presses the letter `w`.   The code includes two different listeners that consume the generated event.  The first listener prints a message when a `w` is printed.   The second listener incrementse a counter variable that represents the total number of `w`s pressed.   The program exits when the user presses the letter `x`.
+
+
+
+```java
+
+import java.util.EventObject;
+
+class InputEvent extends EventObject {
+    public InputEvent(Object source) {
+        super(source);
+    }
+}
+```
+The `EventObject` is the event that is detected.
+
+```java
+interface InputListener {
+    void inputReceived(InputEvent event);
+}
+```
+```java
+class PrintListener implements InputListener {
+    @Override
+    public void inputReceived(InputEvent event) {
+        System.out.println("The letter 'w' was pressed!");
+    }
+}
+```
+```java
+class CounterListener implements InputListener {
+    private int counter = 0;
+
+    @Override
+    public void inputReceived(InputEvent event) {
+        counter++;
+        System.out.println("Total 'w' count: " + counter);
+    }
+}
+```
+The three classes above are the listeners that are called when the event is raised.  The interface class provides the polymorphic abstraction so that our implementation can use either the `PrintListener` or the `CounterListener` class.
+
+```java
+class InputNotifier {
+    private InputListener listener;
+
+    public void setInputListener(InputListener listener) {
+        this.listener = listener;
+    }
+
+    public void notifyInputReceived(InputEvent event) {
+        if (listener != null) {
+            listener.inputReceived(event);
+        }
+    }
+}
+```
+The `InputNotifier` class is the one that raises the events.   For simplicity, this notifier is only capable of managing one listener at a time.  Most classes that raise events can have multiple listeners attached.
+
+```java
+import java.util.Scanner;
+public class EventDrivenProgram {
+    public static void main(String[] args) {
+        InputNotifier inputNotifier = new InputNotifier();
+        PrintListener printListener = new PrintListener();
+        CounterListener counterListener = new CounterListener();
+
+        inputNotifier.setInputListener(printListener);
+        inputNotifier.setInputListener(counterListener);
+
+        Scanner scanner = new Scanner(System.in);
+        String input;
+
+        do {
+            System.out.print("Enter input: ");
+            input = scanner.nextLine();
+            if (input.contains("w")) {
+                inputNotifier.notifyInputReceived(new InputEvent(input));
+            }
+        } while (!input.equalsIgnoreCase("x"));
+
+        System.out.println("Exiting the program...");
+    }
+}
+```

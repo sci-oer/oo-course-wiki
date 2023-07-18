@@ -331,7 +331,7 @@ This OER resource of information and activities will help you learn how to progr
  - E-Text: [Avoid Duplicate Code](/ooDesign/duplicateCode)
 - *Cohesion and Coupling*
  - E-Text: [Cohesion and Coupling](/ooDesign/cohesionCoupling)
- - Mini Lecture:[Cohesion and Coupling](/ooDesign/cohesionCoupling)http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
+ - Mini Lecture:[Cohesion and Coupling](http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
  - [Self Study Exercises and Practice Problems](/practiceActivities/ooDesign/cohesionCoupling)  
 
 #####  Nov. 23
@@ -359,13 +359,7 @@ This OER resource of information and activities will help you learn how to progr
 - Exam Review
 
 
-#### Advanced Topics
-##### Generics
-
-The use of parameterized types (Generics)  increases the type-safety of an OO program.  In this section we learn how to create our own Generic types and use them. 
-
- - [Intro to Generics](generics/introToGenerics)
- 
+#### Additional Topics
 
 
 #####  Functional Programming
@@ -373,13 +367,11 @@ The use of parameterized types (Generics)  increases the type-safety of an OO pr
 Functional programming has many similarities with OO programming.  In this section you will learn about the functional programming conventions that are availble in the Java programming language and how they can be used to improve the overall design of your OO program.
 
 
-- [What is functional programming](/functionalProgramming/functionalProgramming)
-- [Lambda expressions as GUI listeners](/functionalProgramming/lambdaListeners)
 - [Filters](/functionalProgramming/functionalFilters)
 - [Maps](/functionalProgramming/functionalMaps)
 - [Reductions](/functionalProgramming/functionalReductions)
-- [Functional Collection Processing](/functionalProgramming/functionalCollectionProcessing)
-## Topics
+
+## Wiki Topics
 
 - [Programming Tools](/tools)
 - [Java Specifics](/java)
@@ -403,6 +395,54 @@ Functional programming has many similarities with OO programming.  In this secti
 - [Event Driven Programming](/practiceActivities/eventDrivenProgramming)
 - [Object-Oriented Testing](/practiceActivities/testing)
 - [Introduction to Functional Programming](/practiceActivities/functionalProgramming)
+
+## Recorded Mini Lectures
+
+* [Using Git for Java Programming](http://localhost:8000/lectures/tools/Git/)
+* [Intro to Java](http://localhost:8000/lectures/java/JavaIntro/)
+* [Classes, Objects and  Instances ](http://localhost:8000/lectures/ooConcepts/ClassesObjectsInstances/)
+* [Classes in Memory](http://localhost:8000/lectures/ooConcepts/ClassesInMemory)
+* [Review of Pointers in C](http://localhost:8000/lectures/ooConcepts/PointerReview/)
+* [Message Passing](http://localhost:8000/lectures/ooConcepts/MessagePassing/)
+* [Using Aggregation](http://localhost:8000/lectures/ooDesign/Aggregation/)
+* [Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
+* [Using ArrayList](http://localhost:8000/lectures/dataStructures/ArrayList/)
+* [Java Collections Framework](http://localhost:8000/lectures/dataStructures/CollectionsFramework)
+* [Using HashMap](http://localhost:8000/lectures/dataStructures/HashMap/)
+* [Stream Based Input Output ](http://localhost:8000/lectures/inputOutput/StreamBasedIO/)
+* [Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
+* [Creating a basic GUI](http://localhost:8000/lectures/eventDrivenProgramming/GUIConstruction/)
+* [Encapsulation](http://localhost:8000/lectures/ooDesign/Encapsulation/)
+* [Cohesion and Coupling](http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
+* 
+## Jupyter Tutorials
+
+* [Main Method Practice](http://localhost:8888/lab/tree/tutorials/java/mainMethod.ipynb)
+* [Creating Hello World](http://localhost:8888/lab/tree/tutorials/java/helloWorld.ipynb) 
+* [Declaring and using instances](http://localhost:8888/lab/tree/tutorials/ooConcepts/objectsAndInstances.ipynb)
+* [Creating a class in Java](http://localhost:8888/lab/tree/tutorials/ooConcepts/classStructure.ipynb)
+* [References](http://localhost:8888/lab/tree/tutorials/ooConcepts/references.ipynb)
+* [Message Passing to Strings](http://localhost:8888/lab/tree/tutorials/ooConcepts/messagePassing.ipynb)
+* [Formatting Output](http://localhost:8888/lab/tree/tutorials/inputOutput/userOutput.ipynb)
+* [Instance Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceMethods.ipynb)
+* [Try Catch](http://localhost:8888/lab/tree/tutorials/errors/tryCatch.ipynb) 
+* [Try With Resources](http://localhost:8888/lab/tree/tutorials/errors/)
+* [Using ArrayList](http://localhost:8888/lab/tree/tutorials/dataStructures/ArrayList.ipynb)
+* [Instance Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/instanceVariables.ipynb)
+* [Accessors and Mutators](http://localhost:8888/lab/tree/tutorials/ooDesign/accessorsMutators.ipynb)
+* [Class Methods](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticMethods.ipynb) 
+* [Class Variables](http://localhost:8888/lab/tree/tutorials/ooConcepts/staticVariables.ipynb)
+* [Using HashMap](http://localhost:8888/lab/tree/tutorials/dataStructures/HashMap.ipynb)
+* [Using HashSet](http://localhost:8888/lab/tree/tutorials/dataStructures/HashSet.ipynb)
+* [Reading Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedReader.ipynb) 
+* [Writing Text Files](http://localhost:8888/lab/tree/tutorials/inputOutput/bufferedWriter.ipynb)
+* [Serialization Demo](http://localhost:8888/lab/tree/tutorials/inputOutput/serialization.ipynb) 
+* [Handling Multiple Exceptions](http://localhost:8888/lab/tree/tutorials/errors/multipleExceptions.ipynb) 
+* [Programmer Defined Exceptions](http://localhost:8888/lab/tree/tutorials/errors/customExceptions.ipynb) 
+* [Programming with Polymorphism](http://localhost:8888/lab/tree/tutorials/ooDesign/usingPolymorphism.ipynb) 
+* [Creating Subclasses](http://localhost:8888/lab/tree/tutorials/ooDesign/creatingSubclasses.ipynb)
+* [Abstract Classes](http://localhost:8888/lab/tree/tutorials/ooDesign/abstractClasses.ipynb) 
+* [Functional collection processing](http://localhost:8888/lab/tree/tutorials/functionalProgramming/collectionProcessing.ipynb)
 
 ## About the Resource
 #### Authors

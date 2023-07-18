@@ -12,7 +12,7 @@ dateCreated: 2022-08-17T18:13:52.456Z
 
 GUI programming is the most common example of event driven programming. 
 
-To ensure good encapsulation, the program should work without the GUI (perhaps as an API or via a command line interface). The GUI should be a layer that provides a visual representation of the already functional program.
+To ensure good encapsulation, the program should also work without the GUI (perhaps as an API or via a command line interface). The GUI should be a layer that provides a visual representation of the already functional program.
 
 A GUI is built up incrementally from  components that are layered  and arranged to make the display that the user sees. The libraries and framework chosen dictate the names of the components and the methods they have available.  All GUI frameworks are similar in functionality provided. 
 

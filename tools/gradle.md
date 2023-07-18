@@ -32,7 +32,7 @@ repositories {
     mavenCentral()
 }
 test {
-    enableAssertions = true
+    useJUnitPlatform()
 }
 
 //change the name of the class that is run on line 16 to match your own code
@@ -42,7 +42,9 @@ echo.doFirst {
 }
 
 dependencies {
-    testImplementation('junit:junit:4.13')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+
 }
 ```
 
@@ -80,8 +82,8 @@ starterFiles $
 
 GradleW is a wrapper program used to ensure that there are no versioning issues with shared repositories using gradle.  It is invaluable in a production environment where many developers work in the same codebase.  
 
-There are significant advantages to using the wrapper as it removes the requirement for gradle to be installed on the development machine. However, it adds enough size to the repository that it is impractical for a teaching situation where hundreds of similar repositories must be downloaded to the computer of the person doing the grading.    
+There are advantages to using the wrapper for team projects as it removes the requirement for gradle to be installed on the developers machine. However, it adds enough size to the repository that it is impractical for a teaching situation where hundreds of similar repositories must be downloaded to the computer of the person doing the grading.    
 
 Because of the size added by gradlew, for this class we're going to stick with using the installed version of gradle.  It is already installed in the docker container so you don't have to install on your host computer.
-> Under **NO** circumstances, should you be adding gradlew and its associated files to your submissions.
+> Under **NO** circumstances, should you be adding gradlew and its associated files to your assignment submissions.
 {.is-warning}

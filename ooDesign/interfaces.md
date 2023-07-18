@@ -20,7 +20,7 @@ For example, an interface called `Edible` could be used to group together all el
 
 A Potion could be both `Edible` and `Tossable`
 
-A key benefit of interfaces is that you can implement multiple interfaces in one class.   Interfaces are Java's answer to the difficulty with multiple inheritance.
+A key benefit of interfaces is that you can implement multiple interfaces in one class.   Interfaces are Java's answer to the difficult problem of multiple inheritance.
 If the implemented interfaces have constants with the same name, but with different values an inconsistency will occur and the code will not compile.  Another type of inconsistency will occur if the interfaces contain methods with the same name but different return types.  
 > If a class definition implements two inconsistent interfaces, then that is an error, and the class definition is illegal and will not compile.
 {.is-info}
@@ -71,6 +71,7 @@ public class Pet implements Comparable{
 }
 ```
 #### Interface Semantics Are Not Enforced
+The word *semantics* refers to the meaning of something. 
 The java compiler and run-time system check the syntax of the interface and its implementation.  However, neither checks for consistent with its intended meaning. Required semantics for an interface are normally added to the documentation for an interface.  It then becomes the responsibility of each programmer implementing the interface to follow the semantics.  If the method body does not satisfy the specified semantics, then software written for classes that implement the interface may not work correctly.   For example, if the `compareTo` method defined for the `Pet` class randomly returned positive or negative numbers, the compiler and run-time system would accept it as being correct but it would not function as intended.
 
 
