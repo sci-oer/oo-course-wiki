@@ -3,7 +3,7 @@ title: Class Methods and Variables
 description: 
 published: 1
 date: 2022-08-17T20:06:06.146Z
-tags: 
+tags: static, constant
 editor: markdown
 dateCreated: 2022-08-17T18:15:00.493Z
 ---

@@ -3,7 +3,7 @@ title: Information Hiding/ Encapsulation
 description: 
 published: 1
 date: 2022-08-17T19:35:24.334Z
-tags: 
+tags: private, getter, setter, accessor, mutator
 editor: markdown
 dateCreated: 2022-08-17T18:15:32.147Z
 ---
@@ -19,13 +19,11 @@ dateCreated: 2022-08-17T18:15:32.147Z
 - Encapsulation is the process of hiding details at  **implementation** level 
     - for example: the details of how ArrayList.add() is implemented are not necessary to use the method
 
-
-
-
+## What is Encapsulation
 
 Encapsulation is a fundamental concept in object-oriented programming (OOP) that promotes data hiding and ensures the integrity of an object's internal state. It allows objects to control access to their data by providing a well-defined interface, preventing external code from directly manipulating the internal state.  By encapsulating data, we restrict direct access to it from external code, enforcing the principle of information hiding.
 
-Benefits of Encapsulation:
+## Benefits of Encapsulation:
 1. Data Protection: Encapsulation ensures that data is not directly accessible from outside the object, preventing unauthorized modifications and ensuring data integrity.
 2. Modularity and Maintainability: Encapsulating data and behavior within a class promotes modularity, allowing easier maintenance and updates without affecting other parts of the program.
 3. Code Reusability: Encapsulated classes can be reused in different contexts without worrying about their internal implementation details, leading to cleaner and more flexible code.
@@ -43,9 +41,7 @@ Encapsulation can be accomplished through the use of design approaches such as:
    - restricting the public API to only required methods
    
 
-Java provides mechanisms to achieve encapsulation: access modifiers and getter and setter methods.
-
-1. Access Modifiers:
+### Effective Use of Access Modifiers:
 Java offers four access modifiers: public, protected, default (package-private), and private. These modifiers control the visibility of class members, such as fields and methods, within and outside the class.
 
 - Public: Public members are accessible from anywhere in the program.
@@ -53,7 +49,7 @@ Java offers four access modifiers: public, protected, default (package-private),
 - Default: Default members are accessible within the same package only.
 - Private: Private members are accessible only within the same class.
 
-2. Getter and Setter Methods:
+### Use Getter and Setter Methods:
 Getter and setter methods allow controlled access to the private members of a class, enabling read and write operations, respectively. They provide an interface through which the object's internal state can be accessed and modified, while maintaining encapsulation.
 
 Example: Encapsulating a Bank Account Class
@@ -91,14 +87,14 @@ public class BankAccount {
 
 In the example above, the `BankAccount` class encapsulates the account number and balance. The fields `accountNumber` and `balance` are marked as private, preventing direct access from external code. The class provides getter methods (`getAccountNumber()` and `getBalance()`) to read the account number and balance, respectively. The setter method (`setAccountNumber()`) allows the account number to be modified. Additionally, the class includes methods for depositing (`deposit()`) and withdrawing (`withdraw()`) funds, which manipulate the `balance` field while maintaining control over the internal state.
 
-Including the `toString()` and `equals()` methods in a Java class can indirectly contribute to encapsulation.
 
-1. `toString()` method:
+
+### Include a  `toString()` method:
 
 The `toString()` method is used to provide a string representation of an object. By overriding this method in a class, you can define how the object should be represented as a string when it is printed or concatenated with other strings. 
 By providing a meaningful `toString()` implementation, you can encapsulate the internal state of the object within the class. Instead of directly exposing the internal fields, you can choose to display a concise and informative string representation of the object's state. This way, the internal details remain hidden from external code, promoting encapsulation.
 
-2. `equals()` method:
+### Include an `equals()` method:
 
 The `equals()` method is used to compare two objects for equality. By overriding this method in a class, you can define the criteria for determining whether two instances of the class are considered equal.
 
@@ -106,3 +102,4 @@ The `equals()` method affects encapsulation by allowing you to define equality b
 
 Furthermore, when overriding `equals()`, it is recommended to also override the `hashCode()` method, which generates a unique integer representation for the object. These methods work together to ensure consistency when the object is used in hash-based collections such as HashMap or HashSet.
 
+*parts of this wiki page were written using chatGPT*

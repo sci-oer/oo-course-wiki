@@ -3,7 +3,7 @@ title: Objects composed of other Objects
 description: 
 published: 1
 date: 2022-08-17T19:34:10.168Z
-tags: 
+tags: has a, composition
 editor: markdown
 dateCreated: 2022-08-17T18:15:21.895Z
 ---

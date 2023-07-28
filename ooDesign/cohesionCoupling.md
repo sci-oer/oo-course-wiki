@@ -3,7 +3,7 @@ title: Cohesion and Coupling
 description: 
 published: 1
 date: 2022-08-17T19:38:22.172Z
-tags: 
+tags: single responsibility
 editor: markdown
 dateCreated: 2022-08-17T18:15:24.427Z
 ---

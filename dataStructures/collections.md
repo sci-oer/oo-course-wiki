@@ -3,7 +3,7 @@ title: Using Java Collections
 description: 
 published: 1
 date: 2022-08-17T19:22:04.809Z
-tags: 
+tags: collections, parametarized types, arraylist, hashmap, hashset
 editor: markdown
 dateCreated: 2022-08-17T18:13:31.758Z
 ---

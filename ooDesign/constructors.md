@@ -3,7 +3,7 @@ title: Creating objects using constructors
 description: 
 published: true
 date: 2022-08-30T14:26:22.670Z
-tags: 
+tags: default constructor, new, 
 editor: markdown
 dateCreated: 2022-05-02T19:48:57.144Z
 ---

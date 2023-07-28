@@ -3,7 +3,7 @@ title: Exceptions
 description: 
 published: 1
 date: 2022-08-17T19:29:20.396Z
-tags: 
+tags: try, catch, throw, exception
 editor: markdown
 dateCreated: 2022-08-17T18:13:44.740Z
 ---

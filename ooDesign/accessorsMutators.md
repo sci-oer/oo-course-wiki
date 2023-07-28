@@ -3,7 +3,7 @@ title: Acccessors and Mutators
 description: 
 published: 1
 date: 2022-08-17T20:09:29.403Z
-tags: 
+tags: instance variable, member variable, getter, setter
 editor: markdown
 dateCreated: 2022-08-17T18:15:19.393Z
 ---

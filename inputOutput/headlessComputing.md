@@ -3,7 +3,7 @@ title: Headless Computing
 description: 
 published: 1
 date: 2022-08-17T19:26:40.356Z
-tags: 
+tags: gui
 editor: markdown
 dateCreated: 2022-08-17T18:14:23.319Z
 ---

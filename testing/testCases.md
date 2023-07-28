@@ -3,7 +3,7 @@ title: Test Cases
 description: 
 published: 1
 date: 2022-08-17T19:46:00.987Z
-tags: 
+tags: test case table
 editor: markdown
 dateCreated: 2022-08-17T18:16:09.633Z
 ---

@@ -3,7 +3,7 @@ title: Object Serialization
 description: 
 published: 1
 date: 2022-08-17T19:20:06.022Z
-tags: 
+tags: binary files
 editor: markdown
 dateCreated: 2022-08-17T18:14:27.585Z
 ---

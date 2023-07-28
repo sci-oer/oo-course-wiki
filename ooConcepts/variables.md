@@ -3,7 +3,7 @@ title: Instance Variables
 description: 
 published: 1
 date: 2022-08-17T20:05:43.015Z
-tags: 
+tags: instance, private, accessor, mutator
 editor: markdown
 dateCreated: 2022-08-17T18:15:16.850Z
 ---

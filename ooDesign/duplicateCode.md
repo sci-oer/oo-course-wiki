@@ -3,7 +3,7 @@ title: Avoid duplicate code
 description: 
 published: 1
 date: 2022-08-17T20:11:01.667Z
-tags: 
+tags: single responsibility, cohesion
 editor: markdown
 dateCreated: 2022-08-17T18:15:29.701Z
 ---

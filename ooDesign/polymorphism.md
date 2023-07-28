@@ -3,7 +3,7 @@ title: Polymorphism
 description: 
 published: 1
 date: 2022-08-17T20:10:43.379Z
-tags: 
+tags: abstraction, class diagram
 editor: markdown
 dateCreated: 2022-08-17T18:15:39.912Z
 ---

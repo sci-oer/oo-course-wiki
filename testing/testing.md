@@ -3,7 +3,7 @@ title: Software Testing Intro
 description: 
 published: 1
 date: 2022-08-17T20:13:48.296Z
-tags: 
+tags: test cases, junit
 editor: markdown
 dateCreated: 2022-08-17T18:16:12.077Z
 ---

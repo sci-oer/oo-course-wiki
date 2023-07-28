@@ -3,7 +3,7 @@ title: Classes, Objects and Instances
 description: 
 published: true
 date: 2022-09-01T19:15:16.099Z
-tags: 
+tags: member variable, field, methods
 editor: markdown
 dateCreated: 2022-05-02T19:48:14.927Z
 ---

@@ -3,7 +3,7 @@ title: Programming with Polymorphism
 description: 
 published: 1
 date: 2022-08-17T20:10:48.680Z
-tags: 
+tags: polymorphic, collections
 editor: markdown
 dateCreated: 2022-08-17T18:15:44.970Z
 ---

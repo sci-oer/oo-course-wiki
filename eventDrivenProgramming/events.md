@@ -3,7 +3,7 @@ title: Events in Programming
 description: 
 published: 1
 date: 2022-08-17T19:42:10.564Z
-tags: 
+tags: event, listener
 editor: markdown
 dateCreated: 2022-08-17T18:13:49.939Z
 ---

@@ -3,7 +3,7 @@ title: Instance Methods
 description: 
 published: 1
 date: 2022-08-17T20:05:18.493Z
-tags: 
+tags: instance method, return, signature
 editor: markdown
 dateCreated: 2022-08-17T18:15:09.388Z
 ---

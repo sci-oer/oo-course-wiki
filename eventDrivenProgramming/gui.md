@@ -3,7 +3,7 @@ title: Graphical User Interfaces
 description: 
 published: 1
 date: 2022-08-17T19:40:21.113Z
-tags: 
+tags: event, listener, component, gui
 editor: markdown
 dateCreated: 2022-08-17T18:13:52.456Z
 ---

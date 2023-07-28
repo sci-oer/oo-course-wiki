@@ -3,7 +3,7 @@ title: Event Handlers
 description: 
 published: 1
 date: 2022-08-17T19:51:33.245Z
-tags: 
+tags: listener, lambda
 editor: markdown
 dateCreated: 2022-08-17T18:13:47.374Z
 ---

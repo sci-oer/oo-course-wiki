@@ -3,7 +3,7 @@ title: Polymorphism via Interfaces
 description: 
 published: true
 date: 2022-08-29T20:19:20.564Z
-tags: 
+tags: abstraction, polymorphism,semantics
 editor: markdown
 dateCreated: 2022-05-02T19:49:16.153Z
 ---

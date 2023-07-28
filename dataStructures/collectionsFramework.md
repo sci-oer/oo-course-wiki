@@ -3,7 +3,7 @@ title: Collections Framework
 description: 
 published: true
 date: 2022-08-29T20:18:24.628Z
-tags: 
+tags: hashmap, hashset, arraylist
 editor: markdown
 dateCreated: 2022-05-02T19:45:40.527Z
 ---

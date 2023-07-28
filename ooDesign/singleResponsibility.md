@@ -3,7 +3,7 @@ title: Single Responsibility Principle
 description: 
 published: 1
 date: 2022-08-17T19:39:04.372Z
-tags: 
+tags: cohesion, responsibility chart
 editor: markdown
 dateCreated: 2022-08-17T18:15:42.423Z
 ---

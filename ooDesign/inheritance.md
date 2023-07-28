@@ -3,7 +3,7 @@ title: Polymorphism via Inheritance
 description: 
 published: true
 date: 2022-08-29T20:20:33.364Z
-tags: 
+tags: abstraction, subclass, superclass, class diagram, polymorphism
 editor: markdown
 dateCreated: 2022-05-02T19:49:11.209Z
 ---

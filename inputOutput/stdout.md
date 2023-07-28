@@ -3,7 +3,7 @@ title: Stdout
 description: 
 published: 1
 date: 2022-08-17T20:07:03.890Z
-tags: 
+tags: output stream, system.out
 editor: markdown
 dateCreated: 2022-08-17T18:14:33.067Z
 ---

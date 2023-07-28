@@ -3,7 +3,7 @@ title: Stdin
 description: 
 published: 1
 date: 2022-08-17T20:07:18.290Z
-tags: 
+tags: input stream, scanner
 editor: markdown
 dateCreated: 2022-08-17T18:14:30.298Z
 ---

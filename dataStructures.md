@@ -3,7 +3,7 @@ title: Working with Data Structures
 description: 
 published: 1
 date: 2022-04-29T14:38:35.872Z
-tags: 
+tags: collections
 editor: markdown
 dateCreated: 2022-04-08T16:43:23.684Z
 ---
