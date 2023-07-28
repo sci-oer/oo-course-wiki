@@ -441,11 +441,10 @@ Functional programming has many similarities with OO programming.  In this secti
 * [Java Collections Framework](http://localhost:8000/lectures/dataStructures/CollectionsFramework)
 * [Using HashMap](http://localhost:8000/lectures/dataStructures/HashMap/)
 * [Stream Based Input Output ](http://localhost:8000/lectures/inputOutput/StreamBasedIO/)
-* [Catching and Throwing Exceptions](http://localhost:8000/lectures/errors/ExceptionHandling/)
 * [Creating a basic GUI](http://localhost:8000/lectures/eventDrivenProgramming/GUIConstruction/)
 * [Encapsulation](http://localhost:8000/lectures/ooDesign/Encapsulation/)
 * [Cohesion and Coupling](http://localhost:8000/lectures/ooDesign/CohesionAndCoupling/)
-* 
+
 ## Jupyter Tutorials
 
 * [Main Method Practice](http://localhost:8888/lab/tree/tutorials/java/mainMethod.ipynb)
